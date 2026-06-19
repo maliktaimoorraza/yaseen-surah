@@ -1,0 +1,749 @@
+[
+  {
+    "id": 1,
+    "verse_key": "36:1",
+    "arabic": "يسٓ",
+    "english": "Yā, Seen.",
+    "urdu": "یٰسٓ",
+    "hindi": "या, सीन।",
+    "transliteration": "Ya-seen"
+  },
+  {
+    "id": 2,
+    "verse_key": "36:2",
+    "arabic": "وَٱلْقُرْءَانِ ٱلْحَكِيمِ",
+    "english": "By the wise Qur’ān,",
+    "urdu": "قسم ہے قرآن کی جو حکمت سے بھرا ہوا ہے",
+    "hindi": "क़सम है हिकमत वाले क़ुरआन की!",
+    "transliteration": "Walqur-ani alhakeem"
+  },
+  {
+    "id": 3,
+    "verse_key": "36:3",
+    "arabic": "إِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ",
+    "english": "Indeed you, [O Muḥammad], are from among the messengers,",
+    "urdu": "اے محمدﷺ) بےشک تم پیغمبروں میں سے ہو",
+    "hindi": "निःसंदेह आप रसूलों में से हैं।",
+    "transliteration": "Innaka lamina almursaleen"
+  },
+  {
+    "id": 4,
+    "verse_key": "36:4",
+    "arabic": "عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+    "english": "On a straight path.",
+    "urdu": "سیدھے رستے پر",
+    "hindi": "सीधे रास्ते पर हैं।",
+    "transliteration": "AAala siratin mustaqeem"
+  },
+  {
+    "id": 5,
+    "verse_key": "36:5",
+    "arabic": "تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ",
+    "english": "[This is] a revelation of the Exalted in Might, the Merciful,",
+    "urdu": "یہ خدائے) غالب (اور) مہربان نے نازل کیا ہے",
+    "hindi": "(यह) प्रभुत्वशाली, अति दयावान् (अल्लाह) का उतारा हुआ है।",
+    "transliteration": "Tanzeela alAAazeezi arraheem"
+  },
+  {
+    "id": 6,
+    "verse_key": "36:6",
+    "arabic": "لِتُنذِرَ قَوْمًا مَّآ أُنذِرَ ءَابَآؤُهُمْ فَهُمْ غَـٰفِلُونَ",
+    "english": "That you may warn a people whose forefathers were not warned, so they are unaware.",
+    "urdu": "تاکہ تم ان لوگوں کو جن کے باپ دادا کو متنبہ نہیں کیا گیا تھا متنبہ کردو وہ غفلت میں پڑے ہوئے ہیں",
+    "hindi": "ताकि आप उस जाति को डराएँ, जिनके बााप-दादा नहीं डराए गए थे। इसलिए वे ग़ाफ़िल हैं।",
+    "transliteration": "Litunthira qawman ma onthiraabaohum fahum ghafiloon"
+  },
+  {
+    "id": 7,
+    "verse_key": "36:7",
+    "arabic": "لَقَدْ حَقَّ ٱلْقَوْلُ عَلَىٰٓ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ",
+    "english": "Already the word [i.e., decree] has come into effect upon most of them, so they do not believe.",
+    "urdu": "ان میں سے اکثر پر (خدا کی) بات پوری ہوچکی ہے سو وہ ایمان نہیں لائیں گے",
+    "hindi": "उनमें से अधिकतर लोगों पर बात सिद्ध हो चुकी है। अतः वे ईमान नहीं लाएँगे।",
+    "transliteration": "Laqad haqqa alqawlu AAalaaktharihim fahum la yu/minoon"
+  },
+  {
+    "id": 8,
+    "verse_key": "36:8",
+    "arabic": "إِنَّا جَعَلْنَا فِىٓ أَعْنَـٰقِهِمْ أَغْلَـٰلًا فَهِىَ إِلَى ٱلْأَذْقَانِ فَهُم مُّقْمَحُونَ",
+    "english": "Indeed, We have put shackles on their necks, and they are to their chins, so they are with heads [kept] aloft.",
+    "urdu": "ہم نے ان کی گردنوں میں طوق ڈال رکھے ہیں اور وہ ٹھوڑیوں تک (پھنسے ہوئے ہیں) تو ان کے سر اُلل رہے ہیں",
+    "hindi": "तथा हमने उनकी गर्दनों में तौक़ डाल दिए हैं, जो ठुड्डियों से लगे हैं। इसलिए वे सिर ऊपर किए हुए हैं।",
+    "transliteration": "Inna jaAAalna fee aAAnaqihimaghlalan fahiya ila al-athqani fahummuqmahoon"
+  },
+  {
+    "id": 9,
+    "verse_key": "36:9",
+    "arabic": "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَـٰهُمْ فَهُمْ لَا يُبْصِرُونَ",
+    "english": "And We have put before them a barrier and behind them a barrier and covered them, so they do not see.",
+    "urdu": "اور ہم نے ان کے آگے بھی دیوار بنا دی اور ان کے پیچھے بھی۔ پھر ان پر پردہ ڈال دیا تو یہ دیکھ نہیں سکتے",
+    "hindi": "तथा हमने उनके आगे एक आड़ बना दी है और उनके पीछे एक आड़। फिर हमने उनको ढाँक दिया है। अतः वे देख ही नहीं पाते।",
+    "transliteration": "WajaAAalna min bayni aydeehim saddanwamin khalfihim saddan faaghshaynahum fahum la yubsiroon"
+  },
+  {
+    "id": 10,
+    "verse_key": "36:10",
+    "arabic": "وَسَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+    "english": "And it is all the same for them whether you warn them or do not warn them - they will not believe.",
+    "urdu": "اور تم ان کو نصیحت کرو یا نہ کرو ان کے لئے برابر ہے وہ ایمان نہیں لانے کے",
+    "hindi": "और उनके लिए बराबर है, चाहे आप उन्हें डराएँ या न डराएँ, वे ईमान नहीं लाएँगे।",
+    "transliteration": "Wasawaon AAalayhim aanthartahumam lam tunthirhum la yu/minoon"
+  },
+  {
+    "id": 11,
+    "verse_key": "36:11",
+    "arabic": "إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَـٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ",
+    "english": "You can only warn one who follows the message and fears the Most Merciful unseen. So give him good tidings of forgiveness and noble reward.",
+    "urdu": "تم تو صرف اس شخص کو نصیحت کرسکتے ہو جو نصیحت کی پیروی کرے اور خدا سے غائبانہ ڈرے سو اس کو مغفرت اور بڑے ثواب کی بشارت سنا دو",
+    "hindi": "आप तो केवल उस व्यक्ति को डरा सकते हैं, जो इस ज़िक्र (क़ुरआन) का पालन करे, तथा बिन देखे रहमान (अत्यंत दयावान् अल्लाह) से डरे। तो आप उसे क्षमा तथा सम्मानजनक बदले की शुभ सूचना दे दें।",
+    "transliteration": "Innama tunthiru mani ittabaAAaaththikra wakhashiya arrahmanabilghaybi fabashshirhu bimaghfiratin waajrin kareem"
+  },
+  {
+    "id": 12,
+    "verse_key": "36:12",
+    "arabic": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَـٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+    "english": "Indeed, it is We who bring the dead to life and record what they have put forth and what they left behind, and all things We have enumerated in a clear register.",
+    "urdu": "بےشک ہم مردوں کو زندہ کریں گے اور جو کچھ وہ آگے بھیج چکے اور (جو) ان کے نشان پیچھے رہ گئے ہم ان کو قلمبند کرلیتے ہیں۔ اور ہر چیز کو ہم نے کتاب روشن (یعنی لوح محفوظ) میں لکھ رکھا ہے۔",
+    "hindi": "निःसंदेह हम ही मुर्दों को जीवित करेंगे। तथा हम उनके कर्मों और उनके पद्चिह्नों को लिख रहे हैं। तथा प्रत्येक वस्तु को हमने स्पष्ट पुस्तक में दर्ज कर रखा है।",
+    "transliteration": "Inna nahnu nuhyeealmawta wanaktubu ma qaddamoo waatharahumwakulla shay-in ahsaynahu fee imamin mubeen"
+  },
+  {
+    "id": 13,
+    "verse_key": "36:13",
+    "arabic": "وَٱضْرِبْ لَهُم مَّثَلًا أَصْحَـٰبَ ٱلْقَرْيَةِ إِذْ جَآءَهَا ٱلْمُرْسَلُونَ",
+    "english": "And present to them an example: the people of the city, when the messengers came to it -",
+    "urdu": "اور ان سے گاؤں والوں کا قصہ بیان کرو جب ان کے پاس پیغمبر آئے",
+    "hindi": "तथा आप उन्हें बस्ती वालों का एक उदाहरण दीजिए। जब वहाँ (अल्लाह के) भेजे हुए रसूल आए।",
+    "transliteration": "Wadrib lahum mathalan as-habaalqaryati ith jaaha almursaloon"
+  },
+  {
+    "id": 14,
+    "verse_key": "36:14",
+    "arabic": "إِذْ أَرْسَلْنَآ إِلَيْهِمُ ٱثْنَيْنِ فَكَذَّبُوهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوٓا۟ إِنَّآ إِلَيْكُم مُّرْسَلُونَ",
+    "english": "When We sent to them two but they denied them, so We strengthened [them] with a third, and they said, \"Indeed, we are messengers to you.\"",
+    "urdu": "(یعنی) جب ہم نے ان کی طرف دو (پیغمبر) بھیجے تو انہوں نے ان کو جھٹلایا۔ پھر ہم نے تیسرے سے تقویت دی تو انہوں نے کہا کہ ہم تمہاری طرف پیغمبر ہو کر آئے ہیں",
+    "hindi": "जब हमने उनकी ओर दो (रसूलों को) भेजा। तो उन्होंने उन दोनों को झुठला दिया। तब हमने तीसरे के द्वारा शक्ति पहुँचाई। तो तीनों ने कहा : निःसंदेह हम तुम्हारी ओर भेजे गए हैं।",
+    "transliteration": "Ith arsalna ilayhimu ithnaynifakaththaboohuma faAAazzazna bithalithinfaqaloo inna ilaykum mursaloon"
+  },
+  {
+    "id": 15,
+    "verse_key": "36:15",
+    "arabic": "قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَآ أَنزَلَ ٱلرَّحْمَـٰنُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ",
+    "english": "They said, \"You are not but human beings like us, and the Most Merciful has not revealed a thing. You are only telling lies.\"",
+    "urdu": "وہ بولے کہ تم (اور کچھ) نہیں مگر ہماری طرح کے آدمی (ہو) اور خدا نے کوئی چیز نازل نہیں کی تم محض جھوٹ بولتے ہو",
+    "hindi": "उन्होंने कहा : तुम सब तो हमारे ही जैसे मनुष्य हो, और अत्यंत दयावान् (अल्लाह) ने कुछ भी नहीं उतारा है। तुम तो बस झूठ बोल रहे हो।",
+    "transliteration": "Qaloo ma antum illabasharun mithluna wama anzala arrahmanumin shay-in in antum illa takthiboon"
+  },
+  {
+    "id": 16,
+    "verse_key": "36:16",
+    "arabic": "قَالُوا۟ رَبُّنَا يَعْلَمُ إِنَّآ إِلَيْكُمْ لَمُرْسَلُونَ",
+    "english": "They said, \"Our Lord knows that we are messengers to you,",
+    "urdu": "انہوں نے کہا کہ ہمارا پروردگار جانتا ہے کہ ہم تمہاری طرف (پیغام دے کر) بھیجے گئے ہیں",
+    "hindi": "उन रसूलों ने कहा : हमारा पालनहार जानता है कि हम निश्चय ही तुम्हारी ओर रसूल बनाकर भेजे गए हैं।",
+    "transliteration": "Qaloo rabbuna yaAAlamu innailaykum lamursaloon"
+  },
+  {
+    "id": 17,
+    "verse_key": "36:17",
+    "arabic": "وَمَا عَلَيْنَآ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
+    "english": "And we are not responsible except for clear notification.\"",
+    "urdu": "اور ہمارے ذمے تو صاف صاف پہنچا دینا ہے اور بس",
+    "hindi": "तथा हमारा दायित्व खुले तौर पर संदेश पहुँचा देने के सिवा और कुछ नहीं है।",
+    "transliteration": "Wama AAalayna illaalbalaghu almubeen"
+  },
+  {
+    "id": 18,
+    "verse_key": "36:18",
+    "arabic": "قَالُوٓا۟ إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا۟ لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ",
+    "english": "They said, \"Indeed, we consider you a bad omen. If you do not desist, we will surely stone you, and there will surely touch you, from us, a painful punishment.\"",
+    "urdu": "وہ بولے کہ ہم تم کو نامبارک سمجھتے ہیں۔ اگر تم باز نہ آؤ گے تو ہم تمہیں سنگسار کردیں گے اور تم کو ہم سے دکھ دینے والا عذاب پہنچے گا",
+    "hindi": "उन लोगों ने कहा : हम तुम्हें अशुभ (मनहूस) समझते हैं। यदि तुम बाज़ नहीं आए, तो हम तुम्हें निश्चित रूप से पथराव करके मार डालेंगे और तुम्हें अवश्य ही हमारी ओर से दुःखदायी यातना पहुँचेगी।",
+    "transliteration": "Qaloo inna tatayyarnabikum la-in lam tantahoo lanarjumannakum walayamassannakum minnaAAathabun aleem"
+  },
+  {
+    "id": 19,
+    "verse_key": "36:19",
+    "arabic": "قَالُوا۟ طَـٰٓئِرُكُم مَّعَكُمْ ۚ أَئِن ذُكِّرْتُم ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
+    "english": "They said, \"Your omen [i.e., fate] is with yourselves. Is it because you were reminded? Rather, you are a transgressing people.\"",
+    "urdu": "انہوں نے کہا کہ تمہاری نحوست تمہارے ساتھ ہے۔ کیا اس لئے کہ تم کو نصیحت کی گئی۔ بلکہ تم ایسے لوگ ہو جو حد سے تجاوز کر گئے ہو",
+    "hindi": "उन लोगों ने कहा : तुम्हारा अपशकुन तुम्हारे ही साथ है। क्या इसलिए कि तुम्हें उपदेश दिया गया? बल्कि तुम उल्लंघनकारी लोग हो।",
+    "transliteration": "Qaloo ta-irukum maAAakum a-in thukkirtumbal antum qawmun musrifoon"
+  },
+  {
+    "id": 20,
+    "verse_key": "36:20",
+    "arabic": "وَجَآءَ مِنْ أَقْصَا ٱلْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَـٰقَوْمِ ٱتَّبِعُوا۟ ٱلْمُرْسَلِينَ",
+    "english": "And there came from the farthest end of the city a man, running. He said, \"O my people, follow the messengers.",
+    "urdu": "اور شہر کے پرلے کنارے سے ایک آدمی دوڑتا ہوا آیا کہنے لگا کہ اے میری قوم پیغمبروں کے پیچھے چلو",
+    "hindi": "तथा नगर के अंतिम किनारे से एक व्यक्ति दौड़ता हुआ आया। उसने कहा : ऐ मेरी जाति के लोगो! रसूलों का कहा मानो।",
+    "transliteration": "Wajaa min aqsa almadeenatirajulun yasAAa qala ya qawmi ittabiAAooalmursaleen"
+  },
+  {
+    "id": 21,
+    "verse_key": "36:21",
+    "arabic": "ٱتَّبِعُوا۟ مَن لَّا يَسْـَٔلُكُمْ أَجْرًا وَهُم مُّهْتَدُونَ",
+    "english": "Follow those who do not ask of you [any] payment, and they are [rightly] guided.",
+    "urdu": "ایسوں کے جو تم سے صلہ نہیں مانگتے اور وہ سیدھے رستے پر ہیں",
+    "hindi": "तुम उनका अनुसरण करो, जो तुमसे कोई पारिश्रमिक (बदला) नहीं माँगते तथा वे सीधे मार्ग पर हैं।",
+    "transliteration": "IttabiAAoo man la yas-alukum ajranwahum muhtadoon"
+  },
+  {
+    "id": 22,
+    "verse_key": "36:22",
+    "arabic": "وَمَا لِىَ لَآ أَعْبُدُ ٱلَّذِى فَطَرَنِى وَإِلَيْهِ تُرْجَعُونَ",
+    "english": "And why should I not worship He who created me and to whom you will be returned?",
+    "urdu": "اور مجھے کیا ہے میں اس کی پرستش نہ کروں جس نے مجھے پیدا کیا اور اسی کی طرف تم کو لوٹ کر جانا ہے",
+    "hindi": "तथा मुझे क्या हुआ है कि मैं उसकी इबादत न करूँ, जिसने मुझे पैदा किया है और तुम (सब) उसी की ओर लौटाए जाओगे?",
+    "transliteration": "Wama liya la aAAbudu allatheefataranee wa-ilayhi turjaAAoon"
+  },
+  {
+    "id": 23,
+    "verse_key": "36:23",
+    "arabic": "ءَأَتَّخِذُ مِن دُونِهِۦٓ ءَالِهَةً إِن يُرِدْنِ ٱلرَّحْمَـٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَـٰعَتُهُمْ شَيْـًٔا وَلَا يُنقِذُونِ",
+    "english": "Should I take other than Him [false] deities [while], if the Most Merciful intends for me some adversity, their intercession will not avail me at all, nor can they save me?",
+    "urdu": "کیا میں ان کو چھوڑ کر اوروں کو معبود بناؤں؟ اگر خدا میرے حق میں نقصان کرنا چاہے تو ان کی سفارش مجھے کچھ بھی فائدہ نہ دے سکے اور نہ وہ مجھ کو چھڑا ہی سکیں",
+    "hindi": "क्या मैं उसे छोड़कर दूसरे पूज्य बना लूँ? यदि रहमान (अत्यंत दयावान् अल्लाह) मुझे कोई हानि पहुँचाना चाहे, तो उनकी सिफ़ारिश मुझे कुछ लाभ नहीं पहुँचा सकेगी और न वे मुझे बचा सकेंगे।",
+    "transliteration": "Aattakhithu min doonihi alihatanin yuridni arrahmanu bidurrin la tughniAAannee shafaAAatuhum shay-an wala yunqithoon"
+  },
+  {
+    "id": 24,
+    "verse_key": "36:24",
+    "arabic": "إِنِّىٓ إِذًا لَّفِى ضَلَـٰلٍ مُّبِينٍ",
+    "english": "Indeed, I would then be in manifest error.",
+    "urdu": "تب تو میں صریح گمراہی میں مبتلا ہوگیا",
+    "hindi": "निःसंदेह मैं उस समय खुली गुमराही में हूँगा।",
+    "transliteration": "Innee ithan lafee dalalinmubeen"
+  },
+  {
+    "id": 25,
+    "verse_key": "36:25",
+    "arabic": "إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ",
+    "english": "Indeed, I have believed in your Lord, so listen to me.\"",
+    "urdu": "میں تمہارے پروردگار پر ایمان لایا ہوں سو میری بات سن رکھو",
+    "hindi": "निःसंदेह मैं तुम्हारे पालनहार पर ईमान ले आया। अतः मेरी बात सुनो।",
+    "transliteration": "Innee amantu birabbikum fasmaAAoon"
+  },
+  {
+    "id": 26,
+    "verse_key": "36:26",
+    "arabic": "قِيلَ ٱدْخُلِ ٱلْجَنَّةَ ۖ قَالَ يَـٰلَيْتَ قَوْمِى يَعْلَمُونَ",
+    "english": "It was said, \"Enter Paradise.\" He said, \"I wish my people could know",
+    "urdu": "حکم ہوا کہ بہشت میں داخل ہوجا۔ بولا کاش! میری قوم کو خبر ہو",
+    "hindi": "(उससे) कहा गया : जन्नत में प्रवेश कर जा। उसने कहा : काश मेरी जाति भी जान लेती!",
+    "transliteration": "Qeela odkhuli aljannata qala yalayta qawmee yaAAlamoon"
+  },
+  {
+    "id": 27,
+    "verse_key": "36:27",
+    "arabic": "بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ ٱلْمُكْرَمِينَ",
+    "english": "Of how my Lord has forgiven me and placed me among the honored.\"",
+    "urdu": "کہ خدا نے مجھے بخش دیا اور عزت والوں میں کیا",
+    "hindi": "कि मेरे पालनहार ने मुझे क्षमा कर दिया और मुझे सम्मानित लोगों में शामिल कर दिया।",
+    "transliteration": "Bima ghafara lee rabbee wajaAAalaneemina almukrameen"
+  },
+  {
+    "id": 28,
+    "verse_key": "36:28",
+    "arabic": "۞ وَمَآ أَنزَلْنَا عَلَىٰ قَوْمِهِۦ مِنۢ بَعْدِهِۦ مِن جُندٍ مِّنَ ٱلسَّمَآءِ وَمَا كُنَّا مُنزِلِينَ",
+    "english": "And We did not send down upon his people after him any soldiers from the heaven, nor would We have done so.",
+    "urdu": "اور ہم نے اس کے بعد اس کی قوم پر کوئی لشکر نہیں اُتارا اور نہ ہم اُتارنے والے تھے ہی",
+    "hindi": "तथा हमने उसके पश्चात् उसकी जाति पर आकाश से कोई सेना नहीं उतारी और न हम उतारने वाले थे।",
+    "transliteration": "Wama anzalna AAalaqawmihi min baAAdihi min jundin mina assama-i wamakunna munzileen"
+  },
+  {
+    "id": 29,
+    "verse_key": "36:29",
+    "arabic": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ خَـٰمِدُونَ",
+    "english": "It was not but one shout, and immediately they were extinguished.",
+    "urdu": "وہ تو صرف ایک چنگھاڑ تھی (آتشین) سو وہ (اس سے) ناگہاں بجھ کر رہ گئے",
+    "hindi": "वह तो मात्र एक तेज़ आवाज़ (चिंघाड़) थी। फिर एकाएक वे बुझे हुए थे।",
+    "transliteration": "In kanat illa sayhatanwahidatan fa-itha hum khamidoon"
+  },
+  {
+    "id": 30,
+    "verse_key": "36:30",
+    "arabic": "يَـٰحَسْرَةً عَلَى ٱلْعِبَادِ ۚ مَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+    "english": "How regretful for the servants. There did not come to them any messenger except that they used to ridicule him.",
+    "urdu": "بندوں پر افسوس ہے کہ ان کے پاس کوئی پیغمبر نہیں آتا مگر اس سے تمسخر کرتے ہیں",
+    "hindi": "हाय अफसोस है बंदों पर! उनके पास जो भी रसूल आता, वे उसका उपहास किया करते थे।",
+    "transliteration": "Ya hasratan AAalaalAAibadi ma ya/teehim min rasoolin illa kanoobihi yastahzi-oon"
+  },
+  {
+    "id": 31,
+    "verse_key": "36:31",
+    "arabic": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ",
+    "english": "Have they not considered how many generations We destroyed before them - that they to them will not return?",
+    "urdu": "کیا انہوں نے نہیں دیکھا کہ ہم نے ان سے پہلے بہت سے لوگوں کو ہلاک کردیا تھا اب وہ ان کی طرف لوٹ کر نہیں آئیں گے",
+    "hindi": "क्या उन्होंने नहीं देखा कि हमने उनसे पहले कितने ही समुदायों को विनष्ट कर दिया कि वे उनकी ओर लौटकर नहीं आएँगे।",
+    "transliteration": "Alam yaraw kam ahlakna qablahum minaalqurooni annahum ilayhim la yarjiAAoon"
+  },
+  {
+    "id": 32,
+    "verse_key": "36:32",
+    "arabic": "وَإِن كُلٌّ لَّمَّا جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
+    "english": "And indeed, all of them will yet be brought present before Us.",
+    "urdu": "اور سب کے سب ہمارے روبرو حاضر کيے جائیں گے",
+    "hindi": "तथा वे जितने भी हैं सबके सब हमारे सामने उपस्थित किए जाएँगे।",
+    "transliteration": "Wa-in kullun lamma jameeAAun ladaynamuhdaroon"
+  },
+  {
+    "id": 33,
+    "verse_key": "36:33",
+    "arabic": "وَءَايَةٌ لَّهُمُ ٱلْأَرْضُ ٱلْمَيْتَةُ أَحْيَيْنَـٰهَا وَأَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُونَ",
+    "english": "And a sign for them is the dead earth. We have brought it to life and brought forth from it grain, and from it they eat.",
+    "urdu": "اور ایک نشانی ان کے لئے زمین مردہ ہے کہ ہم نے اس کو زندہ کیا اور اس میں سے اناج اُگایا۔ پھر یہ اس میں سے کھاتے ہیں",
+    "hindi": "तथा उनके लिए एक बड़ी निशानी मृत भूमि है। हमने उसे जीवित किया और उससे अन्न निकाला। तो वे उसी में से खाते हैं।",
+    "transliteration": "Waayatun lahumu al-ardualmaytatu ahyaynaha waakhrajna minhahabban faminhu ya/kuloon"
+  },
+  {
+    "id": 34,
+    "verse_key": "36:34",
+    "arabic": "وَجَعَلْنَا فِيهَا جَنَّـٰتٍ مِّن نَّخِيلٍ وَأَعْنَـٰبٍ وَفَجَّرْنَا فِيهَا مِنَ ٱلْعُيُونِ",
+    "english": "And We placed therein gardens of palm trees and grapevines and caused to burst forth therefrom some springs -",
+    "urdu": "اور اس میں کھجوروں اور انگوروں کے باغ پیدا کیے اور اس میں چشمے جاری کردیئے",
+    "hindi": "तथा हमने उसमें खजूरों और अंगूरों के कई बाग बनाए और उनमें कई जल स्रोत प्रवाहित कर दिए।",
+    "transliteration": "WajaAAalna feeha jannatinmin nakheelin waaAAnabin wafajjarna feehamina alAAuyoon"
+  },
+  {
+    "id": 35,
+    "verse_key": "36:35",
+    "arabic": "لِيَأْكُلُوا۟ مِن ثَمَرِهِۦ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ",
+    "english": "That they may eat of His fruit. And their hands have not produced it, so will they not be grateful?",
+    "urdu": "تاکہ یہ ان کے پھل کھائیں اور ان کے ہاتھوں نے تو ان کو نہیں بنایا تو پھر یہ شکر کیوں نہیں کرتے؟",
+    "hindi": "ताकि वे उसके फल खाएँ, हालाँकि उसे उनके हाथों ने नहीं बनाया है। तो क्या वे आभार प्रकट नहीं करते?",
+    "transliteration": "Liya/kuloo min thamarihi wamaAAamilat-hu aydeehim afala yashkuroon"
+  },
+  {
+    "id": 36,
+    "verse_key": "36:36",
+    "arabic": "سُبْحَـٰنَ ٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
+    "english": "Exalted is He who created all pairs - from what the earth grows and from themselves and from that which they do not know.",
+    "urdu": "وہ خدا پاک ہے جس نے زمین کی نباتات کے اور خود ان کے اور جن چیزوں کی ان کو خبر نہیں سب کے جوڑے بنائے",
+    "hindi": "पवित्र है वह अस्तित्व जिसने सभी जोड़े पैदा किए, उन चीज़ों के भी जिन्हें धरती उगाती है, और स्वयं उन (मनुष्यों) के अपने भी, और उनके भी जिन्हें वे नहीं जानते।",
+    "transliteration": "Subhana allathee khalaqaal-azwaja kullaha mimma tunbitu al-arduwamin anfusihim wamimma la yaAAlamoon"
+  },
+  {
+    "id": 37,
+    "verse_key": "36:37",
+    "arabic": "وَءَايَةٌ لَّهُمُ ٱلَّيْلُ نَسْلَخُ مِنْهُ ٱلنَّهَارَ فَإِذَا هُم مُّظْلِمُونَ",
+    "english": "And a sign for them is the night. We remove from it the [light of] day, so they are [left] in darkness.",
+    "urdu": "اور ایک نشانی ان کے لئے رات ہے کہ اس میں سے ہم دن کو کھینچ لیتے ہیں تو اس وقت ان پر اندھیرا چھا جاتا ہے",
+    "hindi": "तथा एक निशानी उनके लिए रात है। जिससे हम दिन को खींच लेते हैं, तो एकाएक वे अंधेरे में हो जाते हैं।",
+    "transliteration": "Waayatun lahumu allaylu naslakhuminhu annahara fa-itha hum muthlimoon"
+  },
+  {
+    "id": 38,
+    "verse_key": "36:38",
+    "arabic": "وَٱلشَّمْسُ تَجْرِى لِمُسْتَقَرٍّ لَّهَا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
+    "english": "And the sun runs [on course] toward its stopping point. That is the determination of the Exalted in Might, the Knowing.",
+    "urdu": "اور سورج اپنے مقرر رستے پر چلتا رہتا ہے۔ یہ (خدائے) غالب اور دانا کا (مقرر کیا ہوا) اندازہ ہے",
+    "hindi": "तथा सूर्य अपने नियत ठिकाने की ओर चला जा रहा है। यह प्रभुत्वशाली, सब कुछ जानने वाले (अल्लाह) का निर्धारित किया हुआ है।",
+    "transliteration": "Washshamsu tajree limustaqarrin lahathalika taqdeeru alAAazeezi alAAaleem"
+  },
+  {
+    "id": 39,
+    "verse_key": "36:39",
+    "arabic": "وَٱلْقَمَرَ قَدَّرْنَـٰهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ ٱلْقَدِيمِ",
+    "english": "And the moon - We have determined for it phases, until it returns [appearing] like the old date stalk.",
+    "urdu": "اور چاند کی بھی ہم نے منزلیں مقرر کردیں یہاں تک کہ (گھٹتے گھٹتے) کھجور کی پرانی شاخ کی طرح ہو جاتا ہے",
+    "hindi": "तथा चाँद की हमने मंज़िलें निर्धारित कर दी हैं। यहाँ तक कि वह फिर खजूर की पुरानी सूखी टेढ़ी टहनी के समान हो जाता है।",
+    "transliteration": "Walqamara qaddarnahu manazilahatta AAada kalAAurjooni alqadeem"
+  },
+  {
+    "id": 40,
+    "verse_key": "36:40",
+    "arabic": "لَا ٱلشَّمْسُ يَنۢبَغِى لَهَآ أَن تُدْرِكَ ٱلْقَمَرَ وَلَا ٱلَّيْلُ سَابِقُ ٱلنَّهَارِ ۚ وَكُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
+    "english": "It is not allowable [i.e., possible] for the sun to reach the moon, nor does the night overtake the day, but each, in an orbit, is swimming.",
+    "urdu": "نہ تو سورج ہی سے ہوسکتا ہے کہ چاند کو جا پکڑے اور نہ رات ہی دن سے پہلے آسکتی ہے۔ اور سب اپنے اپنے دائرے میں تیر رہے ہیں",
+    "hindi": "न तो सूर्य ही से हो सकता है कि चाँद को जा पकड़े और न रात ही दिन से पहले आने वाली है। और सब एक-एक कक्षा में तैर रहे हैं।",
+    "transliteration": "La ashshamsu yanbaghee lahaan tudrika alqamara wala allaylu sabiqu annahariwakullun fee falakin yasbahoon"
+  },
+  {
+    "id": 41,
+    "verse_key": "36:41",
+    "arabic": "وَءَايَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+    "english": "And a sign for them is that We carried their forefathers in a laden ship.",
+    "urdu": "اور ایک نشانی ان کے لئے یہ ہے کہ ہم نے ان کی اولاد کو بھری ہوئی کشتی میں سوار کیا",
+    "hindi": "तथा उनके लिए एक निशानी (यह भी) है कि हमने उनकी नस्ल को भरी हुई नाव में सवार किया।",
+    "transliteration": "Waayatun lahum anna hamalnathurriyyatahum fee alfulki almashhoon"
+  },
+  {
+    "id": 42,
+    "verse_key": "36:42",
+    "arabic": "وَخَلَقْنَا لَهُم مِّن مِّثْلِهِۦ مَا يَرْكَبُونَ",
+    "english": "And We created for them from the likes of it that which they ride.",
+    "urdu": "اور ان کے لئے ویسی ہی اور چیزیں پیدا کیں جن پر وہ سوار ہوتے ہیں",
+    "hindi": "तथा हमने उनके लिए उस (नाव) जैसी कई और चीज़ें बनाईं, जिनपर वे सवार होते हैं।",
+    "transliteration": "Wakhalaqna lahum min mithlihi mayarkaboon"
+  },
+  {
+    "id": 43,
+    "verse_key": "36:43",
+    "arabic": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+    "english": "And if We should will, We could drown them; then no one responding to a cry would there be for them, nor would they be saved",
+    "urdu": "اور اگر ہم چاہیں تو ان کو غرق کردیں۔ پھر نہ تو ان کا کوئی فریاد رس ہوا اور نہ ان کو رہائی ملے",
+    "hindi": "और यदि हम चाहें, तो उन्हें डुबो दें। फिर न कोई उनकी फ़र्याद को पहुँचने वाला हो और न वे बचाए जाएँ।",
+    "transliteration": "Wa-in nasha/ nughriqhum fala sareekhalahum wala hum yunqathoon"
+  },
+  {
+    "id": 44,
+    "verse_key": "36:44",
+    "arabic": "إِلَّا رَحْمَةً مِّنَّا وَمَتَـٰعًا إِلَىٰ حِينٍ",
+    "english": "Except as a mercy from Us and provision for a time.",
+    "urdu": "مگر یہ ہماری رحمت اور ایک مدت تک کے فائدے ہیں",
+    "hindi": "परंतु हमारी ओर से दया और एक समय तक लाभ पहुँचाने की वजह से।",
+    "transliteration": "Illa rahmatan minnawamataAAan ila heen"
+  },
+  {
+    "id": 45,
+    "verse_key": "36:45",
+    "arabic": "وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ",
+    "english": "But when it is said to them, \"Beware of what is before you and what is behind you; perhaps you will receive mercy...\"",
+    "urdu": "اور جب ان سے کہا جاتا ہے کہ جو تمہارے آگے اور جو تمہارے پیچھے ہے اس سے ڈرو تاکہ تم پر رحم کیا جائے",
+    "hindi": "और जब उनसे कहा जाता है कि उस (यातना) से डरो, जो तुम्हारे आगे है और जो तुम्हारे पीछे है, ताकि तुमपर दया की जाए।",
+    "transliteration": "Wa-itha qeela lahumu ittaqoo mabayna aydeekum wama khalfakum laAAallakum turhamoon"
+  },
+  {
+    "id": 46,
+    "verse_key": "36:46",
+    "arabic": "وَمَا تَأْتِيهِم مِّنْ ءَايَةٍ مِّنْ ءَايَـٰتِ رَبِّهِمْ إِلَّا كَانُوا۟ عَنْهَا مُعْرِضِينَ",
+    "english": "And no sign comes to them from the signs of their Lord except that they are from it turning away.",
+    "urdu": "اور ان کے پاس ان کے پروردگار کی کوئی نشانی نہیں آتی مگر اس سے منہ پھیر لیتے ہیں",
+    "hindi": "और उनके पास उनके पालनहार की निशानियों में से कोई निशानी नहीं आती परंतु वे उससे मुँह फेरने वाले होते हैं।",
+    "transliteration": "Wama ta/teehim min ayatin min ayatirabbihim illa kanoo AAanha muAArideen"
+  },
+  {
+    "id": 47,
+    "verse_key": "36:47",
+    "arabic": "وَإِذَا قِيلَ لَهُمْ أَنفِقُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ مُّبِينٍ",
+    "english": "And when it is said to them, \"Spend from that which Allāh has provided for you,\" those who disbelieve say to those who believe, \"Should we feed one whom, if Allāh had willed, He would have fed? You are not but in clear error.\"",
+    "urdu": "اور جب ان سے کہا جاتا ہے کہ جو رزق خدا نے تم کو دیا ہے اس میں سے خرچ کرو۔ تو کافر مومنوں سے کہتے ہیں کہ بھلا ہم ان لوگوں کو کھانا کھلائیں جن کو اگر خدا چاہتا تو خود کھلا دیتا۔ تم تو صریح غلطی میں ہو",
+    "hindi": "तथा जब उनसे कहा जाता है कि उस धन में से खर्च करो, जो अल्लाह ने तुम्हें प्रदान किया है, तो काफ़िर लोग ईमान वालों से कहते हैं : क्या हम उसे खाना खिलाएँ, जिसे यदि अल्लाह चाहता, तो खिला देता? तुम तो खुली गुमराही में हो।",
+    "transliteration": "Wa-itha qeela lahum anfiqoo mimmarazaqakumu Allahu qala allatheena kafaroolillatheena amanoo anutAAimu man law yashaoAllahu atAAamahu in antum illa fee dalalinmubeen"
+  },
+  {
+    "id": 48,
+    "verse_key": "36:48",
+    "arabic": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
+    "english": "And they say, \"When is this promise, if you should be truthful?\"",
+    "urdu": "اور کہتے ہیں اگر تم سچ کہتے ہو تو یہ وعدہ کب (پورا) ہوگا؟",
+    "hindi": "तथा वे कहते हैं : यह (क़ियामत का) वादा कब पूरा होगा, यदि तुम सच्चे हो?",
+    "transliteration": "Wayaqooloona mata hathaalwaAAdu in kuntum sadiqeen"
+  },
+  {
+    "id": 49,
+    "verse_key": "36:49",
+    "arabic": "مَا يَنظُرُونَ إِلَّا صَيْحَةً وَٰحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ",
+    "english": "They do not await except one blast which will seize them while they are disputing.",
+    "urdu": "یہ تو ایک چنگھاڑ کے منتظر ہیں جو ان کو اس حال میں کہ باہم جھگڑ رہے ہوں گے آپکڑے گی",
+    "hindi": "वे केवल एक चिंघाड़ की प्रतीक्षा कर रहे हैं, जो उन्हें आ पकड़ेगी, जबकि वे (आपस में) झगड़ रहे होंगे।",
+    "transliteration": "Ma yanthuroona illasayhatan wahidatan ta/khuthuhum wahumyakhissimoon"
+  },
+  {
+    "id": 50,
+    "verse_key": "36:50",
+    "arabic": "فَلَا يَسْتَطِيعُونَ تَوْصِيَةً وَلَآ إِلَىٰٓ أَهْلِهِمْ يَرْجِعُونَ",
+    "english": "And they will not be able [to give] any instruction, nor to their people can they return.",
+    "urdu": "پھر نہ وصیت کرسکیں گے اور نہ اپنے گھر والوں میں واپس جاسکیں گے",
+    "hindi": "फिर वे न कोई वसीयत कर सकेंगे और न अपने परिजनों की ओर वापस आ सकेंगे।",
+    "transliteration": "Fala yastateeAAoona tawsiyatanwala ila ahlihim yarjiAAoon"
+  },
+  {
+    "id": 51,
+    "verse_key": "36:51",
+    "arabic": "وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+    "english": "And the Horn will be blown; and at once from the graves to their Lord they will hasten.",
+    "urdu": "اور (جس وقت) صور پھونکا جائے گا یہ قبروں سے (نکل کر) اپنے پروردگار کی طرف دوڑ پڑیں گے",
+    "hindi": "तथा सूर (नरसिंघा) में फूँक मारी जाएगी, तो एकाएक वे क़ब्रों से (निकलकर) अपने पालनहार की ओर दौड़ रहे होंगे।",
+    "transliteration": "Wanufikha fee assoori fa-ithahum mina al-ajdathi ila rabbihim yansiloon"
+  },
+  {
+    "id": 52,
+    "verse_key": "36:52",
+    "arabic": "قَالُوا۟ يَـٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَـٰذَا مَا وَعَدَ ٱلرَّحْمَـٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ",
+    "english": "They will say, \"O woe to us! Who has raised us up from our sleeping place?\" [The reply will be], \"This is what the Most Merciful had promised, and the messengers told the truth.\"",
+    "urdu": "کہیں گے اے ہے ہمیں ہماری خوابگاہوں سے کس نے (جگا) اُٹھایا؟ یہ وہی تو ہے جس کا خدا نے وعدہ کیا تھا اور پیغمبروں نے سچ کہا تھا",
+    "hindi": "वे कहेंगे : हाय हमारा विनाश! किसने हमें हमारी क़ब्रों से उठा दिया? यही है जो रहमान ने वादा किया था और रसूलों ने सच कहा था।",
+    "transliteration": "Qaloo ya waylana manbaAAathana min marqadina hatha mawaAAada arrahmanu wasadaqaalmursaloon"
+  },
+  {
+    "id": 53,
+    "verse_key": "36:53",
+    "arabic": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
+    "english": "It will not be but one blast, and at once they are all brought present before Us.",
+    "urdu": "صرف ایک زور کی آواز کا ہونا ہوگا کہ سب کے سب ہمارے روبرو آحاضر ہوں گے",
+    "hindi": "वह तो बस एक चिंघाड़ होगी, तो अचानक वे सब हमारे पास उपस्थित किए हुए होंगे।",
+    "transliteration": "In kanat illa sayhatanwahidatan fa-itha hum jameeAAun ladayna muhdaroon"
+  },
+  {
+    "id": 54,
+    "verse_key": "36:54",
+    "arabic": "فَٱلْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْـًٔا وَلَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+    "english": "So today [i.e., the Day of Judgement] no soul will be wronged at all, and you will not be recompensed except for what you used to do.",
+    "urdu": "اس روز کسی شخص پر کچھ ظلم نہیں کیا جائے گا اور تم کو بدلہ ویسا ہی ملے گا جیسے تم کام کرتے تھے",
+    "hindi": "तो आज किसी प्राणी पर कुछ भी अत्याचार नहीं किया जाएगा और तुम्हें केवल उसी का बदला दिया जाएगा, जो तुम किया करते थे।",
+    "transliteration": "Falyawma la tuthlamunafsun shay-an wala tujzawna illa ma kuntumtaAAmaloon"
+  },
+  {
+    "id": 55,
+    "verse_key": "36:55",
+    "arabic": "إِنَّ أَصْحَـٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى شُغُلٍ فَـٰكِهُونَ",
+    "english": "Indeed the companions of Paradise, that Day, will be amused in [joyful] occupation -",
+    "urdu": "اہل جنت اس روز عیش ونشاط کے مشغلے میں ہوں گے",
+    "hindi": "निःसंदेह जन्नती लोग आज (नेमतों) का आनंद लेने में व्यस्त हैं।",
+    "transliteration": "Inna as-haba aljannati alyawmafee shughulin fakihoon"
+  },
+  {
+    "id": 56,
+    "verse_key": "36:56",
+    "arabic": "هُمْ وَأَزْوَٰجُهُمْ فِى ظِلَـٰلٍ عَلَى ٱلْأَرَآئِكِ مُتَّكِـُٔونَ",
+    "english": "They and their spouses - in shade, reclining on adorned couches.",
+    "urdu": "وہ بھی اور ان کی بیویاں بھی سایوں میں تختوں پر تکیے لگائے بیٹھے ہوں گے",
+    "hindi": "वे तथा उनकी पत्नियाँ छायों में मस्नदों पर तकिया लगाए हुए हैं।",
+    "transliteration": "Hum waazwajuhum fee thilalinAAala al-ara-iki muttaki-oon"
+  },
+  {
+    "id": 57,
+    "verse_key": "36:57",
+    "arabic": "لَهُمْ فِيهَا فَـٰكِهَةٌ وَلَهُم مَّا يَدَّعُونَ",
+    "english": "For them therein is fruit, and for them is whatever they request [or wish]",
+    "urdu": "وہاں ان کے لئے میوے اور جو چاہیں گے (موجود ہوگا)",
+    "hindi": "उनके लिए उसमें बहुत सारा फल है तथा उनके लिए वह कुछ है, जो वे माँग करेंगे।",
+    "transliteration": "Lahum feeha fakihatun walahumma yaddaAAoon"
+  },
+  {
+    "id": 58,
+    "verse_key": "36:58",
+    "arabic": "سَلَـٰمٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ",
+    "english": "[And] \"Peace,\" a word from a Merciful Lord.",
+    "urdu": "پروردگار مہربان کی طرف سے سلام (کہا جائے گا)",
+    "hindi": "सलाम हो। उस पालनहार की ओर से कहा जाएगा, जो अत्यंत दयावान् है।",
+    "transliteration": "Salamun qawlan min rabbin raheem"
+  },
+  {
+    "id": 59,
+    "verse_key": "36:59",
+    "arabic": "وَٱمْتَـٰزُوا۟ ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ",
+    "english": "[Then He will say], \"But stand apart today, you criminals.",
+    "urdu": "اور گنہگارو! آج الگ ہوجاؤ",
+    "hindi": "तथा ऐ अपराधियो! आज तुम अलग हो जाओ।",
+    "transliteration": "Wamtazoo alyawma ayyuhaalmujrimoon"
+  },
+  {
+    "id": 60,
+    "verse_key": "36:60",
+    "arabic": "۞ أَلَمْ أَعْهَدْ إِلَيْكُمْ يَـٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَـٰنَ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+    "english": "Did I not enjoin upon you, O children of Adam, that you not worship Satan - [for] indeed, he is to you a clear enemy -",
+    "urdu": "اے آدم کی اولاد ہم نے تم سے کہہ نہیں دیا تھا کہ شیطان کو نہ پوجنا وہ تمہارا کھلا دشمن ہے",
+    "hindi": "ऐ आदम की संतान! क्या मैंने तुम्हें ताकीद नहीं की थी कि शैतान की उपासना न करना? निश्चय वह तुम्हारा खुला शत्रु है।",
+    "transliteration": "Alam aAAhad ilaykum ya banee adamaan la taAAbudoo ashshaytana innahu lakumAAaduwwun mubeen"
+  },
+  {
+    "id": 61,
+    "verse_key": "36:61",
+    "arabic": "وَأَنِ ٱعْبُدُونِى ۚ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
+    "english": "And that you worship [only] Me? This is a straight path.",
+    "urdu": "اور یہ کہ میری ہی عبادت کرنا۔ یہی سیدھا رستہ ہے",
+    "hindi": "तथा यह कि तुम मेरी ही इबादत करो। यही सीधा मार्ग है।",
+    "transliteration": "Waani oAAbudoonee hatha siratunmustaqeem"
+  },
+  {
+    "id": 62,
+    "verse_key": "36:62",
+    "arabic": "وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا۟ تَعْقِلُونَ",
+    "english": "And he had already led astray from among you much of creation, so did you not use reason?",
+    "urdu": "اور اس نے تم میں سے بہت سی خلقت کو گمراہ کردیا تھا۔ تو کیا تم سمجھتے نہیں تھے؟",
+    "hindi": "तथा उसने तुममें से बहुत-से लोगों को पथभ्रष्ट कर दिया। तो क्या तुम समझते नहीं थे?",
+    "transliteration": "Walaqad adalla minkum jibillankatheeran afalam takoonoo taAAqiloon"
+  },
+  {
+    "id": 63,
+    "verse_key": "36:63",
+    "arabic": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى كُنتُمْ تُوعَدُونَ",
+    "english": "This is the Hellfire which you were promised.",
+    "urdu": "یہی وہ جہنم ہے جس کی تمہیں خبر دی جاتی ہے",
+    "hindi": "यही वह जहन्नम है, जिसका तुमसे वादा किया जाता था।",
+    "transliteration": "Hathihi jahannamu allatee kuntumtooAAadoon"
+  },
+  {
+    "id": 64,
+    "verse_key": "36:64",
+    "arabic": "ٱصْلَوْهَا ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
+    "english": "[Enter to] burn therein today for what you used to deny.\"",
+    "urdu": "(سو) جو تم کفر کرتے رہے ہو اس کے بدلے آج اس میں داخل ہوجاؤ",
+    "hindi": "आज उसमें प्रवेश कर जाओ, उस कुफ़्र के बदले जो तुम किया करते थे।",
+    "transliteration": "Islawha alyawma bimakuntum takfuroon"
+  },
+  {
+    "id": 65,
+    "verse_key": "36:65",
+    "arabic": "ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+    "english": "That Day, We will seal over their mouths, and their hands will speak to Us, and their feet will testify about what they used to earn.",
+    "urdu": "آج ہم ان کے مونہوں پر مہر لگا دیں گے اور جو کچھ یہ کرتے رہے تھے ان کے ہاتھ ہم سے بیان کردیں گے اور ان کے پاؤں (اس کی) گواہی دیں گے",
+    "hindi": "आज हम उनके मुँहों पर मुहर लगा देंगे और उनके हाथ हमसे बात करेंगे तथा उनके पैर उन कर्मों की गवाही देंगे, जो वे किया करते थे।",
+    "transliteration": "Alyawma nakhtimu AAala afwahihimwatukallimuna aydeehim watashhadu arjuluhum bima kanooyaksiboon"
+  },
+  {
+    "id": 66,
+    "verse_key": "36:66",
+    "arabic": "وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ",
+    "english": "And if We willed, We could have obliterated their eyes, and they would race to [find] the path, and how could they see?",
+    "urdu": "اور اگر ہم چاہیں تو ان کی آنکھوں کو مٹا کر (اندھا کر) دیں۔ پھر یہ رستے کو دوڑیں تو کہاں دیکھ سکیں گے",
+    "hindi": "और यदि हम चाहें, तो निश्चय उनकी आँखें मिटा दें। फिर वे रास्ते की ओर दौड़ें, तो कैसे देखेंगे?",
+    "transliteration": "Walaw nashao latamasnaAAala aAAyunihim fastabaqoo assiratafaanna yubsiroon"
+  },
+  {
+    "id": 67,
+    "verse_key": "36:67",
+    "arabic": "وَلَوْ نَشَآءُ لَمَسَخْنَـٰهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَـٰعُوا۟ مُضِيًّا وَلَا يَرْجِعُونَ",
+    "english": "And if We willed, We could have deformed them, [paralyzing them] in their places so they would not be able to proceed, nor could they return.",
+    "urdu": "اور اگر ہم چاہیں تو ان کی جگہ پر ان کی صورتیں بدل دیں پھر وہاں سے نہ آگے جاسکیں اور نہ (پیچھے) لوٹ سکیں",
+    "hindi": "और यदि हम चाहें, तो उनके स्थान ही पर उनके रूप को परिवर्तित कर दें, फिर वे न आगे जा सकें और न पीछे लौट सकें।",
+    "transliteration": "Walaw nashao lamasakhnahumAAala makanatihim fama istataAAoo mudiyyanwala yarjiAAoon"
+  },
+  {
+    "id": 68,
+    "verse_key": "36:68",
+    "arabic": "وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+    "english": "And he to whom We grant long life We reverse in creation; so will they not understand?",
+    "urdu": "اور جس کو ہم بڑی عمر دیتے ہیں تو اسے خلقت میں اوندھا کردیتے ہیں تو کیا یہ سمجھتے نہیں؟",
+    "hindi": "तथा जिसे हम दीर्घायु प्रदान करते हैं, उसे उसकी संरचना में उल्टा फेर देते हैं। तो क्या ये नहीं समझते?",
+    "transliteration": "Waman nuAAammirhu nunakkis-hu fee alkhalqiafala yaAAqiloon"
+  },
+  {
+    "id": 69,
+    "verse_key": "36:69",
+    "arabic": "وَمَا عَلَّمْنَـٰهُ ٱلشِّعْرَ وَمَا يَنۢبَغِى لَهُۥٓ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْءَانٌ مُّبِينٌ",
+    "english": "And We did not give him [i.e., Prophet Muḥammad (ﷺ)] knowledge of poetry, nor is it befitting for him. It is not but a message and a clear Qur’ān",
+    "urdu": "اور ہم نے ان (پیغمبر) کو شعر گوئی نہیں سکھائی اور نہ وہ ان کو شایاں ہے۔ یہ تو محض نصیحت اور صاف صاف قرآن (پُرازحکمت) ہے",
+    "hindi": "और हमने न उन्हें शे'र (काव्य) सिखाया है और न वह उनके योग्य है। वह तो सर्वथा उपदेश तथा स्पष्ट क़ुरआन के सिवा कुछ नहीं।",
+    "transliteration": "Wama AAallamnahu ashshiAArawama yanbaghee lahu in huwa illa thikrunwaqur-anun mubeen"
+  },
+  {
+    "id": 70,
+    "verse_key": "36:70",
+    "arabic": "لِّيُنذِرَ مَن كَانَ حَيًّا وَيَحِقَّ ٱلْقَوْلُ عَلَى ٱلْكَـٰفِرِينَ",
+    "english": "To warn whoever is alive and justify the word [i.e., decree] against the disbelievers.",
+    "urdu": "تاکہ اس شخص کو جو زندہ ہو ہدایت کا رستہ دکھائے اور کافروں پر بات پوری ہوجائے",
+    "hindi": "ताकि वह उसे डराए, जो जीवित हो तथा काफ़िरों पर (यातना की) बात सिद्ध हो जाए।",
+    "transliteration": "Liyunthira man kana hayyanwayahiqqa alqawlu AAala alkafireen"
+  },
+  {
+    "id": 71,
+    "verse_key": "36:71",
+    "arabic": "أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَـٰمًا فَهُمْ لَهَا مَـٰلِكُونَ",
+    "english": "Do they not see that We have created for them from what Our hands have made, grazing livestock, and [then] they are their owners?",
+    "urdu": "کیا انہوں نے نہیں دیکھا کہ جو چیزیں ہم نے اپنے ہاتھوں سے بنائیں ان میں سے ہم نے ان کے لئے چارپائے پیدا کر دیئے اور یہ ان کے مالک ہیں",
+    "hindi": "क्या उन्होंने नहीं देखा कि हमने अपने हाथों से बनाई हुई चीज़ों में से उनके लिए चौपाए पैदा किए, तो वे उनके मालिक हैं?",
+    "transliteration": "Awa lam yaraw anna khalaqnalahum mimma AAamilat aydeena anAAaman fahumlaha malikoon"
+  },
+  {
+    "id": 72,
+    "verse_key": "36:72",
+    "arabic": "وَذَلَّلْنَـٰهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ",
+    "english": "And We have tamed them for them, so some of them they ride, and some of them they eat.",
+    "urdu": "اور ان کو ان کے قابو میں کردیا تو کوئی تو ان میں سے ان کی سواری ہے اور کسی کو یہ کھاتے ہیں",
+    "hindi": "तथा हमने उन्हें उनके वश में कर दिया, तो उनमें से कुछ उनकी सवारी हैं और उनमें से कुछ को वे खाते हैं।",
+    "transliteration": "Wathallalnaha lahumfaminha rakoobuhum waminha ya/kuloon"
+  },
+  {
+    "id": 73,
+    "verse_key": "36:73",
+    "arabic": "وَلَهُمْ فِيهَا مَنَـٰفِعُ وَمَشَارِبُ ۖ أَفَلَا يَشْكُرُونَ",
+    "english": "And for them therein are [other] benefits and drinks, so will they not be grateful?",
+    "urdu": "اور ان میں ان کے لئے (اور) فائدے اور پینے کی چیزیں ہیں۔ تو یہ شکر کیوں نہیں کرتے؟",
+    "hindi": "तथा उनके लिए उन (चौपायों) में कई लाभ और पीने की चीज़ें हैं। तो क्या (फिर भी) वे आभार प्रकट नहीं करते?",
+    "transliteration": "Walahum feeha manafiAAu wamasharibuafala yashkuroon"
+  },
+  {
+    "id": 74,
+    "verse_key": "36:74",
+    "arabic": "وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةً لَّعَلَّهُمْ يُنصَرُونَ",
+    "english": "But they have taken besides Allāh [false] deities that perhaps they would be helped.",
+    "urdu": "اور انہوں نے خدا کے سوا (اور) معبود بنا لیے ہیں کہ شاید (ان سے) ان کو مدد پہنچے",
+    "hindi": "और उन्होंने अल्लाह के सिवा कई पूज्य बना लिए, ताकि उनकी सहायता की जाए।",
+    "transliteration": "Wattakhathoo min dooni Allahialihatan laAAallahum yunsaroon"
+  },
+  {
+    "id": 75,
+    "verse_key": "36:75",
+    "arabic": "لَا يَسْتَطِيعُونَ نَصْرَهُمْ وَهُمْ لَهُمْ جُندٌ مُّحْضَرُونَ",
+    "english": "They are not able to help them, and they [themselves] are for them soldiers in attendance.",
+    "urdu": "(مگر) وہ ان کی مدد کی (ہرگز) طاقت نہیں رکھتے۔ اور وہ ان کی فوج ہو کر حاضر کیے جائیں گے",
+    "hindi": "वे उनकी सहायता करने का सामर्थ्य नहीं रखते, तथा ये उनकी सेना हैं, जो उपस्थित किए हुए हैं।",
+    "transliteration": "La yastateeAAoona nasrahumwahum lahum jundun muhdaroon"
+  },
+  {
+    "id": 76,
+    "verse_key": "36:76",
+    "arabic": "فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
+    "english": "So let not their speech grieve you. Indeed, We know what they conceal and what they declare.",
+    "urdu": "تو ان کی باتیں تمہیں غمناک نہ کردیں۔ یہ جو کچھ چھپاتے اور جو کچھ ظاہر کرتے ہیں ہمیں سب معلوم ہے",
+    "hindi": "अतः उनकी बात आपको शोकग्रस्त न करे। निःसंदेह हम जानते हैं जो वे छिपाते हैं और जो वे प्रकट करते हैं।",
+    "transliteration": "Fala yahzunka qawluhum innanaAAlamu ma yusirroona wama yuAAlinoon"
+  },
+  {
+    "id": 77,
+    "verse_key": "36:77",
+    "arabic": "أَوَلَمْ يَرَ ٱلْإِنسَـٰنُ أَنَّا خَلَقْنَـٰهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+    "english": "Does man not consider that We created him from a [mere] sperm-drop - then at once he is a clear adversary?",
+    "urdu": "کیا انسان نے نہیں دیکھا کہ ہم نے اس کو نطفے سے پیدا کیا۔ پھر وہ تڑاق پڑاق جھگڑنے لگا",
+    "hindi": "क्या मनुष्य ने नहीं देखा कि हमने उसे वीर्य से पैदा किया? फिर अचानक वह खुला झगड़ालू बन बैठा।",
+    "transliteration": "Awa lam yara al-insanu annakhalaqnahu min nutfatin fa-itha huwa khaseemunmubeen"
+  },
+  {
+    "id": 78,
+    "verse_key": "36:78",
+    "arabic": "وَضَرَبَ لَنَا مَثَلًا وَنَسِىَ خَلْقَهُۥ ۖ قَالَ مَن يُحْىِ ٱلْعِظَـٰمَ وَهِىَ رَمِيمٌ",
+    "english": "And he presents for Us an example and forgets his [own] creation. He says, \"Who will give life to bones while they are disintegrated?\"",
+    "urdu": "اور ہمارے بارے میں مثالیں بیان کرنے لگا اور اپنی پیدائش کو بھول گیا۔ کہنے لگا کہ (جب) ہڈیاں بوسیدہ ہوجائیں گی تو ان کو کون زندہ کرے گا؟",
+    "hindi": "और उसने हमारे लिए एक उदाहरण प्रस्तुत किया, और अपनी रचना को भूल गया। उसने कहा : इन अस्थियों को कौन जीवित करेगा, जबकि वे जीर्ण-शीर्ण हो चुकी होंगी?",
+    "transliteration": "Wadaraba lana mathalanwanasiya khalqahu qala man yuhyee alAAithamawahiya rameem"
+  },
+  {
+    "id": 79,
+    "verse_key": "36:79",
+    "arabic": "قُلْ يُحْيِيهَا ٱلَّذِىٓ أَنشَأَهَآ أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ",
+    "english": "Say, \"He will give them life who produced them the first time; and He is, of all creation, Knowing.\"",
+    "urdu": "کہہ دو کہ ان کو وہ زندہ کرے گا جس نے ان کو پہلی بار پیدا کیا تھا۔ اور وہ سب قسم کا پیدا کرنا جانتا ہے",
+    "hindi": "आप कह दें : उन्हें वही (अल्लाह) जीवित करेगा, जिसने उन्हें प्रथम बार पैदा किया और वह प्रत्येक उत्पत्ति को भली-भाँति जानने वाला है।",
+    "transliteration": "Qul yuhyeeha allatheeanshaaha awwala marratin wahuwa bikulli khalqin AAaleem"
+  },
+  {
+    "id": 80,
+    "verse_key": "36:80",
+    "arabic": "ٱلَّذِى جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلْأَخْضَرِ نَارًا فَإِذَآ أَنتُم مِّنْهُ تُوقِدُونَ",
+    "english": "[It is] He who made for you from the green tree, fire, and then from it you ignite.",
+    "urdu": "جس نے تمہارے لئے سبز درخت سے آگ پیدا کی پھر تم اس (کی ٹہنیوں کو رگڑ کر ان) سے آگ نکالتے ہو",
+    "hindi": "वह जिसने तुम्हारे लिए हरे वृक्ष से आग पैदा कर दी, फिर तुम उससे आग सुलगाते हो।",
+    "transliteration": "Allathee jaAAala lakum mina ashshajarial-akhdari naran fa-itha antum minhutooqidoon"
+  },
+  {
+    "id": 81,
+    "verse_key": "36:81",
+    "arabic": "أَوَلَيْسَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِقَـٰدِرٍ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُم ۚ بَلَىٰ وَهُوَ ٱلْخَلَّـٰقُ ٱلْعَلِيمُ",
+    "english": "Is not He who created the heavens and the earth Able to create the likes of them? Yes, [it is so]; and He is the Knowing Creator.",
+    "urdu": "بھلا جس نے آسمانوں اور زمین کو پیدا کیا، کیا وہ اس بات پر قادر نہیں کہ (ان کو پھر) ویسے ہی پیدا کر دے۔ کیوں نہیں۔ اور وہ تو بڑا پیدا کرنے والا اور علم والا ہے",
+    "hindi": "तथा क्या वह (अल्लाह) जिसने आकाशों और धरती को पैदा किया, इस बात का सामर्थ्य नहीं रखता कि उन जैसे और पैदा कर दे? क्यों नहीं, और वही सब कुछ पैदा करने वाला, सब कुछ जानने वाला है?",
+    "transliteration": "Awa laysa allathee khalaqa assamawatiwal-arda biqadirin AAala an yakhluqamithlahum bala wahuwa alkhallaqu alAAaleem"
+  },
+  {
+    "id": 82,
+    "verse_key": "36:82",
+    "arabic": "إِنَّمَآ أَمْرُهُۥٓ إِذَآ أَرَادَ شَيْـًٔا أَن يَقُولَ لَهُۥ كُن فَيَكُونُ",
+    "english": "His command is only when He intends a thing that He says to it, \"Be,\" and it is.",
+    "urdu": "اس کی شان یہ ہے کہ جب وہ کسی چیز کا ارادہ کرتا ہے تو اس سے فرما دیتا ہے کہ ہوجا تو وہ ہوجاتی ہے",
+    "hindi": "उसका आदेश, जब वह किसी चीज़ का इरादा करता है, तो केवल यह होता है कि उससे कहता है \"हो जा\", तो वह हो जाती है।",
+    "transliteration": "Innama amruhu itha aradashay-an an yaqoola lahu kun fayakoon"
+  },
+  {
+    "id": 83,
+    "verse_key": "36:83",
+    "arabic": "فَسُبْحَـٰنَ ٱلَّذِى بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَإِلَيْهِ تُرْجَعُونَ",
+    "english": "So exalted is He in whose hand is the realm of all things, and to Him you will be returned.",
+    "urdu": "وہ (ذات) پاک ہے جس کے ہاتھ میں ہر چیز کی بادشاہت ہے اور اسی کی طرف تم کو لوٹ کر جانا ہے",
+    "hindi": "अतः पवित्र है वह (अल्लाह), जिसके हाथ में प्रत्येक चीज़ का राज्य (पूर्ण अधिकार) है और तुम सब उसी की ओर लौटाए जाओगे।",
+    "transliteration": "Fasubhana allathee biyadihimalakootu kulli shay-in wa-ilayhi turjaAAoon"
+  }
+]

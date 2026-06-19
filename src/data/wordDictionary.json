@@ -1,0 +1,260 @@
+{
+  "يس": {
+    "transliteration": "Yā Sīn",
+    "english": "Ya Sin (Letters of Arabic alphabet)",
+    "urdu": "یاسین (حروف مقطعات)",
+    "hindi": "या-सीन (अरबी वर्णमाला के अक्षर)"
+  },
+  "وَٱلْقُرْءَانِ": {
+    "transliteration": "Wal-Qur'ān",
+    "english": "By the Qur'ān",
+    "urdu": "قسم ہے قرآن کی",
+    "hindi": "क़सम है क़ुरआन की"
+  },
+  "ٱلْحَكِيمِ": {
+    "transliteration": "Al-Ḥakīm",
+    "english": "The Wise / full of wisdom",
+    "urdu": "حکمت والے",
+    "hindi": "तत्वदर्शिता से भरपूर"
+  },
+  "إِنَّكَ": {
+    "transliteration": "Innaka",
+    "english": "Indeed you (O Muhammad)",
+    "urdu": "بے شک آپ",
+    "hindi": "निःसंदेह आप"
+  },
+  "لَمِنَ": {
+    "transliteration": "Lamina",
+    "english": "Are surely from among",
+    "urdu": "البتہ سے ہیں",
+    "hindi": "ज़रूर से हैं"
+  },
+  "ٱلْمُرْسَلِينَ": {
+    "transliteration": "Al-Mursalīn",
+    "english": "The Messengers",
+    "urdu": "رسولوں میں",
+    "hindi": "रसूलों में"
+  },
+  "عَلَىٰ": {
+    "transliteration": "‘Alā",
+    "english": "On / Upon",
+    "urdu": "پر",
+    "hindi": "पर"
+  },
+  "صِرَٰطٍ": {
+    "transliteration": "Ṣirāṭin",
+    "english": "A path",
+    "urdu": "راستے",
+    "hindi": "मार्ग"
+  },
+  "مُّسْتَقِيمٍ": {
+    "transliteration": "Mustaqīm",
+    "english": "Straight",
+    "urdu": "سیدھا",
+    "hindi": "सीधा"
+  },
+  "تَنزِيلَ": {
+    "transliteration": "Tanzīla",
+    "english": "A revelation sent down",
+    "urdu": "نازل کرنا ہے",
+    "hindi": "अवतरण है"
+  },
+  "ٱلْعَزِيزِ": {
+    "transliteration": "Al-‘Azīz",
+    "english": "The Almighty / Exalted in Might",
+    "urdu": "غالب کا",
+    "hindi": "प्रभुत्वशाली का"
+  },
+  "ٱلرَّحِيمِ": {
+    "transliteration": "Ar-Raḥīm",
+    "english": "The Merciful",
+    "urdu": "نہایت مہربان",
+    "hindi": "अत्यंत दयावान"
+  },
+  "لِتُنذِرَ": {
+    "transliteration": "Litundhira",
+    "english": "That you may warn",
+    "urdu": "تاکہ آپ ڈرائیں",
+    "hindi": "ताकि आप सचेत करें"
+  },
+  "قَوْمًا": {
+    "transliteration": "Qawman",
+    "english": "A people",
+    "urdu": "ایک قوم کو",
+    "hindi": "एक जाति को"
+  },
+  "مَّآ": {
+    "transliteration": "Mā",
+    "english": "Not / What",
+    "urdu": "نہیں",
+    "hindi": "नहीं"
+  },
+  "أُنذِرَ": {
+    "transliteration": "Undhira",
+    "english": "Were warned",
+    "urdu": "ڈرایا گیا تھا",
+    "hindi": "डराया गया था"
+  },
+  "ءَابَآؤُهُمْ": {
+    "transliteration": "Ābā'uhum",
+    "english": "Their forefathers",
+    "urdu": "ان کے باپ دادا",
+    "hindi": "उनके पूर्वज"
+  },
+  "فَهُمْ": {
+    "transliteration": "Fahum",
+    "english": "So they / therefore they",
+    "urdu": "تو وہ",
+    "hindi": "तो वे"
+  },
+  "غَـٰفِلُونَ": {
+    "transliteration": "Ghāfilūn",
+    "english": "Are unaware / heedless",
+    "urdu": "غافل ہیں",
+    "hindi": "बेखबर हैं"
+  },
+  "لَقَدْ": {
+    "transliteration": "Laqad",
+    "english": "Already / Certainly",
+    "urdu": "البتہ یقیناً",
+    "hindi": "बेशक"
+  },
+  "حَقَّ": {
+    "transliteration": "Ḥaqqa",
+    "english": "Has come into effect / proven true",
+    "urdu": "ثابت ہو چکی ہے",
+    "hindi": "सिद्ध हो चुकी"
+  },
+  "ٱلْقَوْلُ": {
+    "transliteration": "Al-Qawl",
+    "english": "The Word / Decree",
+    "urdu": "بات",
+    "hindi": "बात"
+  },
+  "أَكْثَرِهِمْ": {
+    "transliteration": "Aktharihim",
+    "english": "Most of them",
+    "urdu": "ان کے اکثر پر",
+    "hindi": "उनमें से अधिकांश पर"
+  },
+  "لَا": {
+    "transliteration": "Lā",
+    "english": "Do not / Not",
+    "urdu": "نہیں",
+    "hindi": "नहीं"
+  },
+  "يُؤْمِنُونَ": {
+    "transliteration": "Yu'minūn",
+    "english": "They believe",
+    "urdu": "وہ ایمان لاتے",
+    "hindi": "वे ईमान लाते"
+  },
+  "إِنَّا": {
+    "transliteration": "Innā",
+    "english": "Indeed We",
+    "urdu": "بے شک ہم نے",
+    "hindi": "बेशक हमने"
+  },
+  "جَعَلْنَا": {
+    "transliteration": "Ja‘alnā",
+    "english": "We have put / made",
+    "urdu": "ہم نے ڈال دیئے",
+    "hindi": "हमने डाल दिए"
+  },
+  "فِىٓ": {
+    "transliteration": "Fī",
+    "english": "In",
+    "urdu": "میں",
+    "hindi": "में"
+  },
+  "أَعْنَـٰقِهِمْ": {
+    "transliteration": "A‘nāqihim",
+    "english": "Their necks",
+    "urdu": "ان کی گردنوں میں",
+    "hindi": "उनकी गर्दनों में"
+  },
+  "أَغْلَـٰلًا": {
+    "transliteration": "Aghlālan",
+    "english": "Iron collars / shackles",
+    "urdu": "طوق",
+    "hindi": "लोहे के पट्टे / तौक़"
+  },
+  "فَهِىَ": {
+    "transliteration": "Fahiya",
+    "english": "And they (reach)",
+    "urdu": "سو وہ",
+    "hindi": "तो वे"
+  },
+  "إِلَى": {
+    "transliteration": "Ilā",
+    "english": "To",
+    "urdu": "تک",
+    "hindi": "तक"
+  },
+  "ٱلْأَذْقَانِ": {
+    "transliteration": "Al-Adhqāni",
+    "english": "The chins",
+    "urdu": "ٹھوڑیوں",
+    "hindi": "ठुड्डियों"
+  },
+  "مُّقْمَحُونَ": {
+    "transliteration": "Muqmaḥūn",
+    "english": "Their heads are forced up / kept aloft",
+    "urdu": "سر اوپر اٹھائے ہوئے ہیں",
+    "hindi": "सिर ऊपर उठाए हुए हैं"
+  },
+  "وَجَعَلْنَا": {
+    "transliteration": "Wa Ja‘alnā",
+    "english": "And We have set / placed",
+    "urdu": "اور ہم نے بنا دی",
+    "hindi": "और हमने बना दी"
+  },
+  "مِنۢ": {
+    "transliteration": "Min",
+    "english": "From",
+    "urdu": "سے",
+    "hindi": "से"
+  },
+  "بَيْنِ": {
+    "transliteration": "Bayni",
+    "english": "Before / Between",
+    "urdu": "آگے",
+    "hindi": "सामने"
+  },
+  "أَيْدِيهِمْ": {
+    "transliteration": "Aydīhim",
+    "english": "Their hands",
+    "urdu": "ان کے ہاتھوں کے",
+    "hindi": "उनके हाथों के"
+  },
+  "سَدًّا": {
+    "transliteration": "Saddan",
+    "english": "A barrier / wall",
+    "urdu": "ایک دیوار",
+    "hindi": "एक आड़ / दीवार"
+  },
+  "وَمِنْ": {
+    "transliteration": "Wa Min",
+    "english": "And from",
+    "urdu": "اور",
+    "hindi": "और"
+  },
+  "خَلْفِهِمْ": {
+    "transliteration": "Khalfihim",
+    "english": "Behind them",
+    "urdu": "ان کے پیچھے",
+    "hindi": "उनके पीछे"
+  },
+  "فَأَغْشَيْنَـٰهُمْ": {
+    "transliteration": "Fa-aghshaynāhum",
+    "english": "So We covered them / veiled them",
+    "urdu": "پھر ہم نے انہیں ڈھانپ دیا",
+    "hindi": "फिर हमने उन्हें ढाँक दिया"
+  },
+  "يُبْصِرُونَ": {
+    "transliteration": "Yubṣirūn",
+    "english": "They see",
+    "urdu": "وہ دیکھ سکتے",
+    "hindi": "वे देख पाते"
+  }
+}

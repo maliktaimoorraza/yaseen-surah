@@ -1,26 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --color-rich-black: var(--rich-black);
+  --color-dark-green: var(--dark-green);
+  --color-bangladesh-green: var(--bangladesh-green);
+  --color-caribbean-green: var(--caribbean-green);
+  --color-pure-white: var(--pure-white);
+  --color-white: var(--white);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
+  --color-real-white: #ffffff;
+  
+  --font-arabic: 'Amiri', 'KFGQPC Uthman Taha Naskh', serif;
+  --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+}
+
 :root {
+  --rich-black: #ffffff;
+  --dark-green: #f3f7f5;
+  --bangladesh-green: #03624c;
+  --caribbean-green: #03624c;
+  --pure-white: #021b1a;
+  --white: #021b1a;
+  --gray-100: #111827;
+  --gray-200: #1f2937;
+  --gray-300: #374151;
+  --gray-400: #4b5563;
+  --gray-500: #6b7280;
+  --foreground: #021b1a;
   --background: #ffffff;
-  --foreground: #171717;
+
+  --glass-bg: rgba(243, 247, 245, 0.8);
+  --glass-border: rgba(3, 98, 76, 0.15);
+  --glass-card-bg: rgba(243, 247, 245, 0.45);
+  --glass-card-bg-hover: rgba(243, 247, 245, 0.7);
+  --glass-card-border: rgba(3, 98, 76, 0.12);
+  --glass-card-border-hover: rgba(3, 98, 76, 0.35);
+  --glass-card-shadow-hover: rgba(3, 98, 76, 0.08);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+html.dark {
+  --rich-black: #021b1a;
+  --dark-green: #032221;
+  --bangladesh-green: #03624c;
+  --caribbean-green: #5eaf73;
+  --pure-white: #ffffff;
+  --white: #ffffff;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-500: #94a3b8;
+  --foreground: #ffffff;
+  --background: #021b1a;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --glass-bg: rgba(3, 34, 33, 0.8);
+  --glass-border: rgba(94, 175, 115, 0.15);
+  --glass-card-bg: rgba(3, 34, 33, 0.4);
+  --glass-card-bg-hover: rgba(3, 34, 33, 0.6);
+  --glass-card-border: rgba(94, 175, 115, 0.1);
+  --glass-card-border-hover: rgba(94, 175, 115, 0.3);
+  --glass-card-shadow-hover: rgba(2, 27, 26, 0.7);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--rich-black);
+  color: var(--white);
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.font-arabic {
+  font-family: 'Amiri', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--rich-black);
+}
+::-webkit-scrollbar-thumb {
+  background: #03624c;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5eaf73;
+}
+
+/* Glassmorphism Classes */
+.glass-header {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.glass-card {
+  background: var(--glass-card-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-card-border);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  border-color: var(--glass-card-border-hover);
+  background: var(--glass-card-bg-hover);
+  box-shadow: 0 10px 30px -15px var(--glass-card-shadow-hover);
+}
+
+/* PDF Print styling */
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm 15mm 20mm 15mm;
+  }
+  
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-page-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .print-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .print-card {
+    background: #ffffff !important;
+    border: none !important;
+    border-bottom: 1px dashed #cccccc !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    margin-bottom: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .print-arabic {
+    color: #000000 !important;
+    font-size: 24pt !important;
+    line-height: 2.2 !important;
+    text-align: right !important;
+    direction: rtl !important;
+    font-family: 'Amiri', serif !important;
+  }
+
+  .print-translation {
+    color: #333333 !important;
+    font-size: 11pt !important;
+    line-height: 1.6 !important;
+    margin-top: 8px !important;
+  }
 }
