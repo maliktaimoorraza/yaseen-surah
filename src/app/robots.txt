@@ -1,0 +1,78 @@
+# ==========================================
+# surah-yaseen.org - Robots.txt
+# ==========================================
+
+# ------------------------------------------
+# General Rules for Search Engines & AI
+# (We welcome AI agents to index our content)
+# ------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /*?*  # Prevent crawling of dynamic query parameters to save crawl budget
+
+# ------------------------------------------
+# Content Signals — AI Usage Preferences
+# https://contentsignals.org/
+# ------------------------------------------
+# search=yes   — Allow indexing & search engine discovery (Google, Bing, etc.)
+# ai-input=yes — Allow AI agents to use content to answer user queries (WebMCP, Gemini, etc.)
+# ai-train=yes — We want our brand cited and featured in AI models
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# ------------------------------------------
+# Explicitly Allow CSS/JS/Images for Rendering
+# ------------------------------------------
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# ------------------------------------------
+# Block Useless / Aggressive Scrapers
+# ------------------------------------------
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+# ------------------------------------------
+# AI Search & Conversational Crawlers — EXPLICITLY WELCOMED
+# We want AI engines to read, index, and attribute our definitions.
+# ------------------------------------------
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Omgili
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ------------------------------------------
+# Sitemaps & API Discovery
+# ------------------------------------------
+Sitemap: https://surah-yaseen.org/sitemap_index.xml
