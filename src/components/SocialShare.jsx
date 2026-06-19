@@ -80,8 +80,8 @@ export default function SocialShare({ title = "Surah Yaseen Web Platform", text 
   return (
     <>
       {/* Floating Share Drawer */}
-      <div className="fixed left-6 bottom-6 z-40 no-print flex flex-col items-center">
-        <div className="flex items-center bg-dark-green border border-caribbean-green/20 rounded-full shadow-2xl p-1.5 gap-1.5 animate-in slide-in-from-left duration-300">
+      <div className="fixed left-2 md:left-4 top-1/2 -translate-y-1/2 z-40 no-print flex flex-col items-center">
+        <div className="flex flex-col items-center bg-dark-green border border-caribbean-green/20 rounded-full shadow-2xl p-1.5 gap-1.5 animate-in slide-in-from-left duration-300">
           {shareLinks.map((link) => (
             <a
               key={link.name}
