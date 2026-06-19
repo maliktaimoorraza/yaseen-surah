@@ -1,7 +1,7 @@
 import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata = {
-  title: "Disclaimer Notice - Surah Yaseen Hub",
+  title: "Disclaimer Notice - Surah Yaseen",
   description: "Read the disclaimer notice regarding translation limits, tajweed guides, and audio streams.",
 };
 

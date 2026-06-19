@@ -1,8 +1,8 @@
 import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata = {
-  title: "Privacy Policy - Surah Yaseen Hub",
-  description: "Learn how we protect, process, and secure user information on Surah Yaseen Hub.",
+  title: "Privacy Policy - Surah Yaseen",
+  description: "Learn how we protect, process, and secure user information on Surah Yaseen.",
 };
 
 export default function PrivacyPolicy() {
@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           <p><strong>Effective Date:</strong> June 19, 2026</p>
           
           <p>
-            Welcome to Surah Yaseen Hub. We are committed to protecting your privacy and ensuring a secure experience. This Privacy Policy details the types of information we collect, how we use it, and how we protect your personal data.
+            Welcome to Surah Yaseen. We are committed to protecting your privacy and ensuring a secure experience. This Privacy Policy details the types of information we collect, how we use it, and how we protect your personal data.
           </p>
 
           <h2 className="text-lg font-bold text-white mt-8">1. Information We Collect</h2>

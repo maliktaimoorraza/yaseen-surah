@@ -27,12 +27,12 @@ export async function generateMetadata({ params }) {
   const current = langConfig[lang.toLowerCase()];
   if (!current) {
     return {
-      title: "Surah Yaseen Translation Hub - Surah Yaseen Hub"
+      title: "Surah Yaseen Translation Hub - Surah Yaseen"
     };
   }
 
   return {
-    title: `${current.title} - Surah Yaseen Hub`,
+    title: `${current.title} - Surah Yaseen`,
     description: current.desc,
   };
 }

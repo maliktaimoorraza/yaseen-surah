@@ -204,7 +204,7 @@ export default function Homepage() {
           </h1>
           {/* Exactly 100 words Intro */}
           <p className="text-base text-gray-300 leading-relaxed font-sans">
-            Welcome to Surah Yaseen Hub, a dedicated sanctuary designed to help you connect deeply with the heart of the Holy Qur'an. Surah Yaseen, the thirty-sixth chapter, holds immense spiritual weight, offering light, comfort, and multiple rewards for those who recite it with devotion. Our platform is engineered to elevate your experience by providing a premium, interactive verse-by-verse reader, high-quality audio recitation toggles, customized translation views, and detailed pronunciation guides. Here, you can read online, download optimized PDF documents, and stream prominent reciters, establishing a powerful and transformative daily habit of reflection, study, and learning from this noble scripture with ease.
+            Welcome to Surah Yaseen, a dedicated sanctuary designed to help you connect deeply with the heart of the Holy Qur'an. Surah Yaseen, the thirty-sixth chapter, holds immense spiritual weight, offering light, comfort, and multiple rewards for those who recite it with devotion. Our platform is engineered to elevate your experience by providing a premium, interactive verse-by-verse reader, high-quality audio recitation toggles, customized translation views, and detailed pronunciation guides. Here, you can read online, download optimized PDF documents, and stream prominent reciters, establishing a powerful and transformative daily habit of reflection, study, and learning from this noble scripture with ease.
           </p>
         </div>
       </section>
@@ -680,7 +680,7 @@ export default function Homepage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 no-print">
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
           <p className="text-base text-gray-200 leading-relaxed italic font-sans">
-            "In conclusion, Surah Yaseen stands as a profound source of light and guidance, offering unmatched spiritual benefits to everyone who approaches it with sincerity. By utilizing the advanced features of Surah Yaseen Hub, you can seamlessly read, study translations, practice pronunciation, and listen to beautiful recitations daily. Embrace the teachings of this glorious chapter, share these blessed materials with others, and cultivate a lasting spiritual connection with the Holy Quran."
+            "In conclusion, Surah Yaseen stands as a profound source of light and guidance, offering unmatched spiritual benefits to everyone who approaches it with sincerity. By utilizing the advanced features of Surah Yaseen, you can seamlessly read, study translations, practice pronunciation, and listen to beautiful recitations daily. Embrace the teachings of this glorious chapter, share these blessed materials with others, and cultivate a lasting spiritual connection with the Holy Quran."
           </p>
         </div>
       </section>

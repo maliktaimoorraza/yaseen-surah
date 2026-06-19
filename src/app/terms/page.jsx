@@ -1,8 +1,8 @@
 import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata = {
-  title: "Terms and Conditions - Surah Yaseen Hub",
-  description: "Read the terms of use governing Surah Yaseen Hub platform services.",
+  title: "Terms and Conditions - Surah Yaseen",
+  description: "Read the terms of use governing Surah Yaseen platform services.",
 };
 
 export default function TermsAndConditions() {
@@ -17,7 +17,7 @@ export default function TermsAndConditions() {
           <p><strong>Effective Date:</strong> June 19, 2026</p>
 
           <p>
-            By accessing and using Surah Yaseen Hub, you agree to comply with and be bound by the following Terms and Conditions. Please review them carefully.
+            By accessing and using Surah Yaseen, you agree to comply with and be bound by the following Terms and Conditions. Please review them carefully.
           </p>
 
           <h2 className="text-lg font-bold text-white mt-8">1. Intellectual Property & Usage License</h2>

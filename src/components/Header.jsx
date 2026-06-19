@@ -76,7 +76,7 @@ export default function Header() {
                   سورہ یٰسین
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.2em] text-caribbean-green/80 font-medium">
-                  Surah Yaseen Hub
+                  Surah Yaseen
                 </span>
               </div>
             </Link>
@@ -401,7 +401,7 @@ export default function Header() {
             </div>
 
             <div className="pt-6 border-t border-caribbean-green/10 text-center text-xs text-gray-400">
-              © {new Date().getFullYear()} Surah Yaseen Hub
+              © {new Date().getFullYear()} Surah Yaseen
             </div>
           </div>
         </div>

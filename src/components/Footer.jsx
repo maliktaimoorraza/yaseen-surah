@@ -21,7 +21,7 @@ export default function Footer() {
                   سورہ یٰسین
                 </span>
                 <span className="text-[9px] uppercase tracking-[0.2em] text-caribbean-green/80 font-medium">
-                  Surah Yaseen Hub
+                  Surah Yaseen
                 </span>
               </div>
             </Link>
@@ -173,7 +173,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-caribbean-green/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400">
           <p className="font-sans">
-            &copy; {new Date().getFullYear()} Surah Yaseen Hub. All rights reserved. 
+            &copy; {new Date().getFullYear()} Surah Yaseen. All rights reserved. 
           </p>
           <p className="font-sans flex items-center gap-1.5">
             Designed for Spiritual Reflection and Study.
