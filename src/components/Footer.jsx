@@ -90,18 +90,23 @@ export default function Footer() {
                   Contact Support
                 </Link>
               </li>
+              <li>
+                <Link href="/sitemap.xml" className="text-sm hover:text-white transition-colors duration-200">
+                  Sitemap
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Column 4: Social Engagement */}
-          <div>
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-caribbean-green mb-6 font-sans">
               Social Engagement
             </h3>
             <p className="text-xs text-gray-400 leading-relaxed mb-6 font-sans">
               Connect with us on our social platforms to stay updated, listen to daily verses, and share blessings with the global community.
             </p>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               {/* YouTube SVG */}
               <a
                 href="https://youtube.com"
