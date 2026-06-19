@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://surahyaseenhub.com";
+  const baseUrl = "https://surah-yaseen.org";
 
   const paths = [
     { url: "", priority: 1.0, changeFrequency: "daily" },
