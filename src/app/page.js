@@ -16,6 +16,15 @@ export default function Homepage() {
   const [showUrdu, setShowUrdu] = useState(true);
   const [showRoman, setShowRoman] = useState(true);
   const [selectedReciter, setSelectedReciter] = useState("alafasy"); // 'alafasy' or 'sudais'
+  const [isPageScrolled, setIsPageScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsPageScrolled(window.scrollY > 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   
   // Audio Player States
   const [currentVerseIndex, setCurrentVerseIndex] = useState(null); // 0 to 82
@@ -26,8 +35,7 @@ export default function Homepage() {
   // FAQ Accordion State
   const [openFaq, setOpenFaq] = useState(null);
 
-  // Page Scroll State (for Action Bar visibility)
-  const [isPageScrolled, setIsPageScrolled] = useState(false);
+
 
   // Refs to avoid stale closure issues in audio listeners
   const stateRef = useRef({
@@ -47,19 +55,29 @@ export default function Homepage() {
     };
   }, [currentVerseIndex, selectedReciter, continuousPlay, isPlaying]);
 
-  // Track page scroll to toggle Sticky Action Bar visibility
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsPageScrolled(true);
-      } else {
-        setIsPageScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const playAudio = (index, reciterName = selectedReciter) => {
+    if (!audioRef.current) return;
+    
+    const verseNum = String(index + 1).padStart(3, "0");
+    const reciterPath = reciterName === "alafasy" 
+      ? "Alafasy_64kbps" 
+      : "Abdurrahmaan_As-Sudais_64kbps";
+    
+    const audioUrl = `https://everyayah.com/data/${reciterPath}/036${verseNum}.mp3`;
+    
+    audioRef.current.src = audioUrl;
+    audioRef.current.load();
+    audioRef.current.play()
+      .then(() => {
+        setIsPlaying(true);
+      })
+      .catch((err) => {
+        console.error("Audio play failed:", err);
+        setIsPlaying(false);
+      });
+  };
+
+
 
   // Initialize single Audio object on mount
   useEffect(() => {
@@ -86,6 +104,7 @@ export default function Homepage() {
       audio.pause();
       audio.removeEventListener("ended", handleEnded);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Sync reciter changes during active playback
@@ -93,29 +112,8 @@ export default function Homepage() {
     if (isPlaying && currentVerseIndex !== null) {
       playAudio(currentVerseIndex, selectedReciter);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedReciter]);
-
-  const playAudio = (index, reciterName = selectedReciter) => {
-    if (!audioRef.current) return;
-    
-    const verseNum = String(index + 1).padStart(3, "0");
-    const reciterPath = reciterName === "alafasy" 
-      ? "Alafasy_64kbps" 
-      : "Abdurrahmaan_As-Sudais_64kbps";
-    
-    const audioUrl = `https://everyayah.com/data/${reciterPath}/036${verseNum}.mp3`;
-    
-    audioRef.current.src = audioUrl;
-    audioRef.current.load();
-    audioRef.current.play()
-      .then(() => {
-        setIsPlaying(true);
-      })
-      .catch((err) => {
-        console.error("Audio play failed:", err);
-        setIsPlaying(false);
-      });
-  };
 
   const togglePlayVerse = (index) => {
     setContinuousPlay(false);
@@ -166,6 +164,7 @@ export default function Homepage() {
         element.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentVerseIndex]);
 
   const toggleFaq = (index) => {
@@ -209,19 +208,19 @@ export default function Homepage() {
   ];
 
   return (
-    <div className="min-h-screen bg-rich-black text-pure-white pb-12">
+    <div className="min-h-screen bg-rich-black text-pure-white pb-32 md:pb-12">
       {/* Intro Header Section */}
       <section className="relative py-12 lg:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 no-print">
         <div className="text-center max-w-3xl mx-auto">
           <span className="text-xs uppercase tracking-[0.25em] text-caribbean-green font-semibold mb-3.5 inline-block">
-            Noble Qur'an Chapter 36
+            Noble Qur&apos;an Chapter 36
           </span>
           <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight text-white mb-6 font-sans">
             Surah Yaseen Read Online
           </h1>
           {/* Exactly 100 words Intro */}
           <p className="text-base text-gray-300 leading-relaxed font-sans">
-            Welcome to Surah Yaseen, a dedicated sanctuary designed to help you connect deeply with the heart of the Holy Qur'an. Surah Yaseen, the thirty-sixth chapter, holds immense spiritual weight, offering light, comfort, and multiple rewards for those who recite it with devotion. Our platform is engineered to elevate your experience by providing a premium, interactive verse-by-verse reader, high-quality audio recitation toggles, customized translation views, and detailed pronunciation guides. Here, you can read online, download optimized PDF documents, and stream prominent reciters, establishing a powerful and transformative daily habit of reflection, study, and learning from this noble scripture with ease.
+            Welcome to Surah Yaseen, a dedicated sanctuary designed to help you connect deeply with the heart of the Holy Qur&apos;an. Surah Yaseen, the thirty-sixth chapter, holds immense spiritual weight, offering light, comfort, and multiple rewards for those who recite it with devotion. Our platform is engineered to elevate your experience by providing a premium, interactive verse-by-verse reader, high-quality audio recitation toggles, customized translation views, and detailed pronunciation guides. Here, you can read online, download optimized PDF documents, and stream prominent reciters, establishing a powerful and transformative daily habit of reflection, study, and learning from this noble scripture with ease.
           </p>
         </div>
       </section>
@@ -264,21 +263,22 @@ export default function Homepage() {
 
       {/* Main Interactive Reader Dashboard */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-        {/* Sticky Control Dashboard Panel (no-print) */}
-        <div className={`sticky top-20 z-30 bg-dark-green border border-caribbean-green/20 rounded-2xl p-4 sm:p-5 shadow-xl mb-8 flex flex-col md:flex-row items-center justify-between gap-5 no-print transition-all duration-300 ${
+
+        {/* Control Dashboard Panel (no-print) */}
+        <div className={`fixed bottom-0 left-0 right-0 border-t border-caribbean-green/20 rounded-none shadow-2xl p-3 grid grid-cols-2 gap-3.5 no-print bg-dark-green z-40 transition-all duration-300 md:sticky md:top-20 md:border md:rounded-2xl md:shadow-xl md:mb-8 md:flex md:flex-row md:items-center md:justify-between md:gap-5 md:p-5 ${
           isPageScrolled 
-            ? "opacity-100 translate-y-0 scale-100" 
-            : "opacity-0 pointer-events-none -translate-y-4 scale-95"
+            ? "opacity-100 translate-y-0 scale-100 pointer-events-auto" 
+            : "opacity-100 pointer-events-auto md:opacity-0 md:pointer-events-none md:-translate-y-4 md:scale-95"
         }`}>
           {/* Reciter selector pill */}
-          <div className="flex flex-col gap-2 w-full md:w-auto">
-            <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider">
+          <div className="flex flex-col gap-1 md:gap-2 w-full md:w-auto">
+            <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider hidden md:block">
               Reciter Audio Selection
             </span>
-            <div className="inline-flex bg-rich-black p-1 rounded-xl border border-caribbean-green/10">
+            <div className="inline-flex bg-rich-black p-0.5 md:p-1 rounded-xl border border-caribbean-green/10 w-full md:w-auto justify-between md:justify-start">
               <button
                 onClick={() => setSelectedReciter("alafasy")}
-                className={`px-4 py-2 text-xs font-semibold rounded-lg transition-all duration-300 ${
+                className={`flex-1 md:flex-initial px-2 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-semibold rounded-lg transition-all duration-300 ${
                   selectedReciter === "alafasy"
                     ? "bg-bangladesh-green text-real-white shadow-md shadow-caribbean-green/10"
                     : "text-gray-400 hover:text-white"
@@ -288,7 +288,7 @@ export default function Homepage() {
               </button>
               <button
                 onClick={() => setSelectedReciter("sudais")}
-                className={`px-4 py-2 text-xs font-semibold rounded-lg transition-all duration-300 ${
+                className={`flex-1 md:flex-initial px-2 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-semibold rounded-lg transition-all duration-300 ${
                   selectedReciter === "sudais"
                     ? "bg-bangladesh-green text-real-white shadow-md shadow-caribbean-green/10"
                     : "text-gray-400 hover:text-white"
@@ -299,63 +299,27 @@ export default function Homepage() {
             </div>
           </div>
 
-          {/* Translation Checkboxes */}
-          <div className="flex flex-col gap-2 w-full md:w-auto">
-            <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider">
-              Active Translations
-            </span>
-            <div className="flex flex-wrap gap-4 bg-rich-black px-4 py-2.5 rounded-xl border border-caribbean-green/10">
-              <label className="flex items-center gap-2 text-xs font-medium cursor-pointer select-none">
-                <input
-                  type="checkbox"
-                  checked={showEnglish}
-                  onChange={(e) => setShowEnglish(e.target.checked)}
-                  className="w-4 h-4 rounded border-gray-600 text-bangladesh-green focus:ring-0 focus:ring-offset-0 bg-dark-green cursor-pointer accent-caribbean-green"
-                />
-                <span>English</span>
-              </label>
-              <label className="flex items-center gap-2 text-xs font-medium cursor-pointer select-none">
-                <input
-                  type="checkbox"
-                  checked={showUrdu}
-                  onChange={(e) => setShowUrdu(e.target.checked)}
-                  className="w-4 h-4 rounded border-gray-600 text-bangladesh-green focus:ring-0 focus:ring-offset-0 bg-dark-green cursor-pointer accent-caribbean-green"
-                />
-                <span>Urdu (ترجمہ)</span>
-              </label>
-              <label className="flex items-center gap-2 text-xs font-medium cursor-pointer select-none">
-                <input
-                  type="checkbox"
-                  checked={showRoman}
-                  onChange={(e) => setShowRoman(e.target.checked)}
-                  className="w-4 h-4 rounded border-gray-600 text-bangladesh-green focus:ring-0 focus:ring-offset-0 bg-dark-green cursor-pointer accent-caribbean-green"
-                />
-                <span>Roman English</span>
-              </label>
-            </div>
-          </div>
-
           {/* Text Resizer pill */}
-          <div className="flex flex-col gap-2 w-full md:w-auto">
-            <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider">
+          <div className="flex flex-col gap-1 md:gap-2 w-full md:w-auto">
+            <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider hidden md:block">
               Script Typography Resize
             </span>
-            <div className="flex items-center bg-rich-black rounded-xl border border-caribbean-green/10 p-1">
+            <div className="flex items-center bg-rich-black rounded-xl border border-caribbean-green/10 p-0.5 md:p-1 w-full md:w-auto justify-between md:justify-start">
               <button
                 onClick={() => setArabicSize(Math.max(1.5, arabicSize - 0.25))}
-                className="w-10 h-10 flex items-center justify-center text-xs font-bold text-gray-400 hover:text-white transition-colors"
+                className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center text-[10px] md:text-xs font-bold text-gray-400 hover:text-white transition-colors"
                 title="Decrease Arabic font size"
               >
                 A-
               </button>
-              <div className="h-6 w-[1px] bg-caribbean-green/10" />
-              <div className="w-12 text-center text-xs font-semibold text-caribbean-green">
+              <div className="h-5 md:h-6 w-[1px] bg-caribbean-green/10" />
+              <div className="w-10 md:w-12 text-center text-[10px] md:text-xs font-semibold text-caribbean-green">
                 {Math.round(arabicSize * 40)}%
               </div>
-              <div className="h-6 w-[1px] bg-caribbean-green/10" />
+              <div className="h-5 md:h-6 w-[1px] bg-caribbean-green/10" />
               <button
                 onClick={() => setArabicSize(Math.min(4.0, arabicSize + 0.25))}
-                className="w-10 h-10 flex items-center justify-center text-xs font-bold text-gray-400 hover:text-white transition-colors"
+                className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center text-[10px] md:text-xs font-bold text-gray-400 hover:text-white transition-colors"
                 title="Increase Arabic font size"
               >
                 A+
@@ -363,11 +327,47 @@ export default function Homepage() {
             </div>
           </div>
 
+          {/* Translation Checkboxes */}
+          <div className="flex flex-col gap-1 md:gap-2 w-full md:w-auto col-span-2 md:col-span-1">
+            <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider hidden md:block">
+              Active Translations
+            </span>
+            <div className="flex flex-row justify-around md:justify-start gap-2 md:gap-4 bg-rich-black px-3 py-2 md:px-4 md:py-2.5 rounded-xl border border-caribbean-green/10 text-[10px] md:text-xs">
+              <label className="flex items-center gap-1.5 md:gap-2 text-[10px] md:text-xs font-medium cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={showEnglish}
+                  onChange={(e) => setShowEnglish(e.target.checked)}
+                  className="w-3.5 h-3.5 md:w-4 md:h-4 rounded border-gray-600 text-bangladesh-green focus:ring-0 focus:ring-offset-0 bg-dark-green cursor-pointer accent-caribbean-green"
+                />
+                <span>English</span>
+              </label>
+              <label className="flex items-center gap-1.5 md:gap-2 text-[10px] md:text-xs font-medium cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={showUrdu}
+                  onChange={(e) => setShowUrdu(e.target.checked)}
+                  className="w-3.5 h-3.5 md:w-4 md:h-4 rounded border-gray-600 text-bangladesh-green focus:ring-0 focus:ring-offset-0 bg-dark-green cursor-pointer accent-caribbean-green"
+                />
+                <span>Urdu (ترجمہ)</span>
+              </label>
+              <label className="flex items-center gap-1.5 md:gap-2 text-[10px] md:text-xs font-medium cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={showRoman}
+                  onChange={(e) => setShowRoman(e.target.checked)}
+                  className="w-3.5 h-3.5 md:w-4 md:h-4 rounded border-gray-600 text-bangladesh-green focus:ring-0 focus:ring-offset-0 bg-dark-green cursor-pointer accent-caribbean-green"
+                />
+                <span>Roman English</span>
+              </label>
+            </div>
+          </div>
+
           {/* Audio Actions Controller */}
-          <div className="flex items-center gap-2.5 w-full md:w-auto pt-2 md:pt-0 border-t border-caribbean-green/10 md:border-t-0">
+          <div className="flex items-center gap-2 w-full md:w-auto pt-0 border-t-0 md:pt-0 md:border-t-0 col-span-2 md:col-span-1 justify-center md:justify-start">
             <button
               onClick={togglePlayFullSurah}
-              className={`flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 w-full md:w-auto shadow-md ${
+              className={`flex items-center justify-center gap-1.5 px-4 py-2.5 md:px-5 md:py-3 rounded-xl text-[10px] md:text-xs font-bold uppercase tracking-wider transition-all duration-300 w-full md:w-auto shadow-md ${
                 isPlaying && continuousPlay
                   ? "bg-amber-600 hover:bg-amber-500 text-real-white shadow-amber-600/10"
                   : "bg-gradient-to-r from-bangladesh-green to-caribbean-green hover:opacity-95 text-real-white shadow-caribbean-green/10"
@@ -379,7 +379,7 @@ export default function Homepage() {
             {isPlaying && (
               <button
                 onClick={stopAudio}
-                className="w-11 h-11 flex items-center justify-center rounded-xl bg-red-950/40 border border-red-800/20 text-red-400 hover:bg-red-900 hover:text-real-white transition-colors"
+                className="w-8 h-8 md:w-11 md:h-11 flex items-center justify-center rounded-xl bg-red-950/40 border border-red-800/20 text-red-400 hover:bg-red-900 hover:text-real-white transition-colors shrink-0"
                 title="Stop Recitation"
               >
                 <RotateCcw className="w-4 h-4" />
@@ -560,7 +560,7 @@ export default function Homepage() {
               Surah Yaseen History
             </h2>
             <p className="text-sm text-gray-300 leading-relaxed font-sans mb-4">
-              Revealed in Makkah during the middle period of the Prophet Muhammad's (PBUH) mission, Surah Yaseen was sent to reassure the early believers facing severe persecution. It addresses the theological challenges of the polytheistic Quraysh and establishes absolute evidence of divine messengers.
+              Revealed in Makkah during the middle period of the Prophet Muhammad&apos;s (PBUH) mission, Surah Yaseen was sent to reassure the early believers facing severe persecution. It addresses the theological challenges of the polytheistic Quraysh and establishes absolute evidence of divine messengers.
             </p>
             <p className="text-sm text-gray-300 leading-relaxed font-sans">
               Historically, this chapter served as a strong defense of the Prophethood (risalah). By detailing historical accounts of past cities that rejected their guides and faced sudden annihilation, it warned of persistent disbelief.
@@ -709,7 +709,7 @@ export default function Homepage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 no-print">
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
           <p className="text-base text-gray-200 leading-relaxed italic font-sans">
-            "In conclusion, Surah Yaseen stands as a profound source of light and guidance, offering unmatched spiritual benefits to everyone who approaches it with sincerity. By utilizing the advanced features of Surah Yaseen, you can seamlessly read, study translations, practice pronunciation, and listen to beautiful recitations daily. Embrace the teachings of this glorious chapter, share these blessed materials with others, and cultivate a lasting spiritual connection with the Holy Quran."
+            &quot;In conclusion, Surah Yaseen stands as a profound source of light and guidance, offering unmatched spiritual benefits to everyone who approaches it with sincerity. By utilizing the advanced features of Surah Yaseen, you can seamlessly read, study translations, practice pronunciation, and listen to beautiful recitations daily. Embrace the teachings of this glorious chapter, share these blessed materials with others, and cultivate a lasting spiritual connection with the Holy Quran.&quot;
           </p>
         </div>
       </section>
