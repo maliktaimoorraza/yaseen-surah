@@ -27,7 +27,7 @@ export default function ScrollToTop() {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 no-print">
+    <div className="fixed bottom-36 right-6 md:bottom-6 z-50 no-print">
       <button
         onClick={scrollToTop}
         className={`w-12 h-12 rounded-full bg-caribbean-green hover:bg-caribbean-green/80 text-rich-black flex items-center justify-center shadow-lg shadow-caribbean-green/20 transition-all duration-300 transform border border-rich-black/20 ${

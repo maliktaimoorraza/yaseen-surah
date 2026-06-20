@@ -230,7 +230,7 @@ export default function Header() {
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-bangladesh-green/20 focus:outline-none transition-colors"
             >
-              {isOpen ? <X className="h-6 h-6" /> : <Menu className="h-6 h-6" />}
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
@@ -259,6 +259,7 @@ export default function Header() {
             <nav className="flex-1 py-6 space-y-2">
               <Link
                 href="/"
+                onClick={() => setIsOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
                   isActive("/") ? "bg-bangladesh-green text-real-white" : "text-gray-300 hover:bg-bangladesh-green/10 hover:text-white"
                 }`}
@@ -283,24 +284,28 @@ export default function Header() {
                   <div className="pl-8 pr-4 py-1 space-y-1 bg-rich-black/30 rounded-xl mt-1 animate-in fade-in duration-200">
                     <Link
                       href="/translation"
+                      onClick={() => setIsOpen(false)}
                       className="block px-3 py-2 text-sm text-gray-400 hover:text-white"
                     >
                       All Translations
                     </Link>
                     <Link
                       href="/translation/urdu"
+                      onClick={() => setIsOpen(false)}
                       className="block px-3 py-2 text-sm text-gray-400 hover:text-white"
                     >
                       اردو ترجمہ (Urdu)
                     </Link>
                     <Link
                       href="/translation/hindi"
+                      onClick={() => setIsOpen(false)}
                       className="block px-3 py-2 text-sm text-gray-400 hover:text-white"
                     >
                       हिन्दी अनुवाद (Hindi)
                     </Link>
                     <Link
                       href="/translation/english"
+                      onClick={() => setIsOpen(false)}
                       className="block px-3 py-2 text-sm text-gray-400 hover:text-white"
                     >
                       English Translation
@@ -311,6 +316,7 @@ export default function Header() {
 
               <Link
                 href="/pronunciation"
+                onClick={() => setIsOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
                   isActive("/pronunciation") ? "bg-bangladesh-green text-real-white" : "text-gray-300 hover:bg-bangladesh-green/10 hover:text-white"
                 }`}
@@ -321,6 +327,7 @@ export default function Header() {
 
               <Link
                 href="/benefits"
+                onClick={() => setIsOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
                   isActive("/benefits") ? "bg-bangladesh-green text-real-white" : "text-gray-300 hover:bg-bangladesh-green/10 hover:text-white"
                 }`}
@@ -345,18 +352,21 @@ export default function Header() {
                   <div className="pl-8 pr-4 py-1 space-y-1 bg-rich-black/30 rounded-xl mt-1 animate-in fade-in duration-200">
                     <Link
                       href="/reciters"
+                      onClick={() => setIsOpen(false)}
                       className="block px-3 py-2 text-sm text-gray-400 hover:text-white"
                     >
                       Reciters Profiles
                     </Link>
                     <Link
                       href="/reciters#sudais"
+                      onClick={() => setIsOpen(false)}
                       className="block px-3 py-2 text-sm text-gray-400 hover:text-white"
                     >
                       Qari Al-Sudais
                     </Link>
                     <Link
                       href="/reciters#alafasy"
+                      onClick={() => setIsOpen(false)}
                       className="block px-3 py-2 text-sm text-gray-400 hover:text-white"
                     >
                       Mishary Rashid Alafasy
@@ -367,6 +377,7 @@ export default function Header() {
 
               <Link
                 href="/contact"
+                onClick={() => setIsOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
                   isActive("/contact") ? "bg-bangladesh-green text-real-white" : "text-gray-300 hover:bg-bangladesh-green/10 hover:text-white"
                 }`}
