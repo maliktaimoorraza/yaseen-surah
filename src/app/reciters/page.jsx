@@ -27,6 +27,27 @@ export default function RecitersPage() {
     setCurrentVerseIndex(index);
   };
 
+  const playVerse = (index, reciter) => {
+    if (!audioRef.current) return;
+
+    const reciterPath = reciter === "alafasy"
+      ? "Alafasy_64kbps"
+      : "Abdurrahmaan_As-Sudais_64kbps";
+    const verseNum = String(index + 1).padStart(3, "0");
+    const audioUrl = `https://everyayah.com/data/${reciterPath}/036${verseNum}.mp3`;
+
+    audioRef.current.src = audioUrl;
+    audioRef.current.load();
+    audioRef.current.play()
+      .then(() => {
+        // Playback successfully started
+      })
+      .catch((err) => {
+        console.error("Audio playback failed:", err);
+        updateState(null, false, null);
+      });
+  };
+
   // Initialize single Audio object on mount
   useEffect(() => {
     const audio = new Audio();
@@ -51,27 +72,6 @@ export default function RecitersPage() {
       audio.removeEventListener("ended", handleEnded);
     };
   }, []);
-
-  const playVerse = (index, reciter) => {
-    if (!audioRef.current) return;
-
-    const reciterPath = reciter === "alafasy"
-      ? "Alafasy_64kbps"
-      : "Abdurrahmaan_As-Sudais_64kbps";
-    const verseNum = String(index + 1).padStart(3, "0");
-    const audioUrl = `https://everyayah.com/data/${reciterPath}/036${verseNum}.mp3`;
-
-    audioRef.current.src = audioUrl;
-    audioRef.current.load();
-    audioRef.current.play()
-      .then(() => {
-        // Playback successfully started
-      })
-      .catch((err) => {
-        console.error("Audio playback failed:", err);
-        updateState(null, false, null);
-      });
-  };
 
   const togglePreview = (reciter) => {
     if (!audioRef.current) return;

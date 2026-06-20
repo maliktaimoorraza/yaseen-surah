@@ -57,11 +57,12 @@ export default function Header() {
   const isActive = (path) => pathname === path;
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 no-print ${
-      isScrolled 
-        ? "bg-dark-green border-b border-caribbean-green/10 shadow-lg shadow-rich-black/50 opacity-100 translate-y-0" 
-        : "bg-dark-green border-b border-caribbean-green/10 shadow-lg shadow-rich-black/50 opacity-100 translate-y-0 lg:opacity-0 lg:pointer-events-none lg:-translate-y-full"
-    }`}>
+    <>
+      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 no-print ${
+        isScrolled 
+          ? "bg-dark-green border-b border-caribbean-green/10 shadow-lg shadow-rich-black/50 opacity-100 translate-y-0" 
+          : "bg-dark-green border-b border-caribbean-green/10 shadow-lg shadow-rich-black/50 opacity-100 translate-y-0 lg:opacity-0 lg:pointer-events-none lg:-translate-y-full"
+      }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo & Branding */}
@@ -235,10 +236,11 @@ export default function Header() {
           </div>
         </div>
       </div>
+    </header>
 
       {/* Mobile Drawer Overlay */}
       {isOpen && (
-        <div className="fixed inset-0 z-40 lg:hidden flex justify-end">
+        <div className="fixed inset-0 z-[60] lg:hidden flex justify-end">
           {/* Backdrop */}
           <div className="fixed inset-0 bg-rich-black/70 backdrop-blur-sm" onClick={() => setIsOpen(false)} />
 
@@ -414,6 +416,6 @@ export default function Header() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }
