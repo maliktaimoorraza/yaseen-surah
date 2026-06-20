@@ -26,6 +26,9 @@ export default function Homepage() {
   // FAQ Accordion State
   const [openFaq, setOpenFaq] = useState(null);
 
+  // Page Scroll State (for Action Bar visibility)
+  const [isPageScrolled, setIsPageScrolled] = useState(false);
+
   // Refs to avoid stale closure issues in audio listeners
   const stateRef = useRef({
     currentVerseIndex,
@@ -43,6 +46,20 @@ export default function Homepage() {
       isPlaying
     };
   }, [currentVerseIndex, selectedReciter, continuousPlay, isPlaying]);
+
+  // Track page scroll to toggle Sticky Action Bar visibility
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsPageScrolled(true);
+      } else {
+        setIsPageScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Initialize single Audio object on mount
   useEffect(() => {
@@ -248,7 +265,11 @@ export default function Homepage() {
       {/* Main Interactive Reader Dashboard */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
         {/* Sticky Control Dashboard Panel (no-print) */}
-        <div className="sticky top-20 z-30 bg-dark-green/90 backdrop-blur-md border border-caribbean-green/20 rounded-2xl p-4 sm:p-5 shadow-xl mb-8 flex flex-col md:flex-row items-center justify-between gap-5 no-print">
+        <div className={`sticky top-20 z-30 bg-dark-green border border-caribbean-green/20 rounded-2xl p-4 sm:p-5 shadow-xl mb-8 flex flex-col md:flex-row items-center justify-between gap-5 no-print transition-all duration-300 ${
+          isPageScrolled 
+            ? "opacity-100 translate-y-0 scale-100" 
+            : "opacity-0 pointer-events-none -translate-y-4 scale-95"
+        }`}>
           {/* Reciter selector pill */}
           <div className="flex flex-col gap-2 w-full md:w-auto">
             <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider">
@@ -390,7 +411,7 @@ export default function Homepage() {
                 id={`ayah-card-${ayah.id}`}
                 className={`rounded-2xl p-6 sm:p-8 transition-all duration-500 border ${
                   isAyahActive
-                    ? "bg-dark-green/90 border-caribbean-green shadow-xl shadow-caribbean-green/5 ring-1 ring-caribbean-green/30"
+                    ? "active-card"
                     : "glass-card border-caribbean-green/10"
                 } print-card print-page-break`}
               >
@@ -425,7 +446,9 @@ export default function Homepage() {
 
                 {/* Arabic Script */}
                 <div 
-                  className="font-arabic text-right mb-6 select-none print-arabic text-white"
+                  className={`font-arabic text-right mb-6 select-none print-arabic transition-all duration-500 ${
+                    isAyahActive ? "active-arabic" : "text-white"
+                  }`}
                   style={{ fontSize: `${arabicSize}rem`, lineHeight: 2 }}
                 >
                   {ayah.arabic}
@@ -438,7 +461,9 @@ export default function Homepage() {
                       <span className="text-[10px] font-bold text-caribbean-green/80 uppercase tracking-wider no-print">
                         Transliteration
                       </span>
-                      <p className="text-sm italic leading-relaxed text-caribbean-green/90">
+                      <p className={`text-sm italic leading-relaxed transition-colors duration-500 ${
+                        isAyahActive ? "text-caribbean-green font-semibold" : "text-caribbean-green/90"
+                      }`}>
                         {ayah.transliteration}
                       </p>
                     </div>
@@ -449,7 +474,9 @@ export default function Homepage() {
                       <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider no-print">
                         English Translation (Sahih International)
                       </span>
-                      <p className="text-sm sm:text-base leading-relaxed text-gray-100">
+                      <p className={`text-sm sm:text-base leading-relaxed transition-colors duration-500 ${
+                        isAyahActive ? "text-pure-white font-medium" : "text-gray-100"
+                      }`}>
                         {ayah.english}
                       </p>
                     </div>
@@ -460,7 +487,9 @@ export default function Homepage() {
                       <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider no-print">
                         اردو ترجمہ (جالندھری)
                       </span>
-                      <p className="text-base sm:text-lg leading-loose text-white font-sans font-medium">
+                      <p className={`text-base sm:text-lg leading-loose font-sans transition-colors duration-500 ${
+                        isAyahActive ? "text-pure-white font-bold" : "text-white font-medium"
+                      }`}>
                         {ayah.urdu}
                       </p>
                     </div>

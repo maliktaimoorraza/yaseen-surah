@@ -41,6 +41,9 @@
   --glass-card-border: rgba(3, 98, 76, 0.12);
   --glass-card-border-hover: rgba(3, 98, 76, 0.35);
   --glass-card-shadow-hover: rgba(3, 98, 76, 0.08);
+
+  --active-card-bg: rgba(3, 98, 76, 0.05);
+  --active-card-shadow: rgba(3, 98, 76, 0.12);
 }
 
 html.dark {
@@ -65,6 +68,9 @@ html.dark {
   --glass-card-border: rgba(94, 175, 115, 0.1);
   --glass-card-border-hover: rgba(94, 175, 115, 0.3);
   --glass-card-shadow-hover: rgba(2, 27, 26, 0.7);
+
+  --active-card-bg: rgba(3, 34, 33, 0.85);
+  --active-card-shadow: rgba(94, 175, 115, 0.2);
 }
 
 body {
@@ -172,3 +178,17 @@ body {
     margin-top: 8px !important;
   }
 }
+
+/* Premium Active Highlighting System */
+.active-card {
+  background: var(--active-card-bg) !important;
+  border-color: var(--caribbean-green) !important;
+  box-shadow: 0 10px 40px -10px var(--active-card-shadow) !important;
+  transform: translateY(-2px);
+}
+
+.active-arabic {
+  color: var(--caribbean-green) !important;
+  text-shadow: 0 0 1px rgba(94, 175, 115, 0.25);
+}
+
