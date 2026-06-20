@@ -52,7 +52,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xs font-bold text-caribbean-green uppercase tracking-wider font-sans">Email Address</h3>
-                    <p className="text-sm text-gray-300 mt-1">support@surahyaseenhub.com</p>
+                    <p className="text-sm text-gray-300 mt-1">contact@surah-yaseen.org</p>
                   </div>
                 </div>
 
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xs font-bold text-caribbean-green uppercase tracking-wider font-sans">Phone Helpline</h3>
-                    <p className="text-sm text-gray-300 mt-1">+92-21-34567890</p>
+                    <p className="text-sm text-gray-300 mt-1">+1 (803) 599-8339</p>
                   </div>
                 </div>
 
