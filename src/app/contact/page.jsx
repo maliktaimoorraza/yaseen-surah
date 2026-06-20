@@ -33,7 +33,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-sm text-gray-300 leading-relaxed font-sans">
-            Have questions, technical suggestions, or feedback regarding our <a>translations, phonics guides, or reciters audio files? Please reach out using the form below. We read all reader submissions and respond promptly.
+            Have questions, technical suggestions, or feedback regarding our <a href="/translation" className="nav-link" title="Surah Yaseen Translations">Translations</a>, phonics guides, or reciters audio files? Please reach out using the form below. We read all reader submissions and respond promptly.
           </p>
         </div>
 
