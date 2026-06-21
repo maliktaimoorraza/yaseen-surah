@@ -4,8 +4,11 @@ import Footer from "@/components/Footer";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Surah Yaseen (سورة يس) - Read Online, Audio MP3, PDF & Benefits",
-  description: "Read Surah Yaseen online with high-quality Arabic text, Roman transliteration, and English, Urdu, and Hindi translations. Access audio recitations and explore spiritual benefits.",
+  title: "Surah Yaseen Read Online, Download PDF, and Listen Audio",
+  description: "Read Surah Yaseen online, download pdf, listen to audio with Roman transliteration translations (English, Urdu, and Hindi). Explore spiritual benefits!!!",
+  alternates: {
+    canonical: "https://surah-yaseen.org/",
+  },
   keywords: "Surah Yaseen, Quran Chapter 36, Surah Yasin translation, read online, audio, MP3 download, PDF download, Urdu translation, Hindi translation",
 };
 

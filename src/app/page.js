@@ -223,7 +223,7 @@ export default function Homepage() {
             Noble Qur&apos;an Chapter 36
           </span>
           <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight text-white mb-6 font-sans">
-            Surah Yaseen Read Online
+            Surah Yaseen PDF Download, Read and Listen Online
           </h1>
           <p className="text-base text-gray-300 leading-relaxed font-sans mb-4">
             Surah Yaseen is a 36th Chapter of Holy Quran that comes in 22nd and 23rd para. It was revealed to Prophet Muhammad (PBUH) in Mecca, so it is a Meccan Surah. According to Prophet Muhammad everything has a heart and the heart of the Quran is Yaseen Surah and its recitation offers many worldly and <a href="/translation" className="nav-link" title="Surah Yaseen Benfits">spirtual benefits</a> to its readers.
@@ -274,7 +274,7 @@ export default function Homepage() {
       <section id="read-online" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 scroll-mt-24">
 
         {/* Control Dashboard Panel (no-print) */}
-        <div className={`fixed bottom-0 left-0 right-0 border-t border-caribbean-green/20 rounded-none shadow-2xl p-3 grid grid-cols-2 gap-3.5 no-print bg-dark-green z-40 transition-all duration-300 md:sticky md:top-20 md:border md:rounded-2xl md:shadow-xl md:mb-8 md:flex md:flex-row md:items-center md:justify-between md:gap-5 md:p-5 ${isPageScrolled
+        <div className={`fixed bottom-[52px] md:bottom-0 left-0 right-0 border-t border-caribbean-green/20 rounded-none shadow-2xl p-3 grid grid-cols-2 gap-3.5 no-print bg-dark-green z-40 transition-all duration-300 md:sticky md:top-20 md:border md:rounded-2xl md:shadow-xl md:mb-8 md:flex md:flex-row md:items-center md:justify-between md:gap-5 md:p-5 ${isPageScrolled
           ? "opacity-100 translate-y-0 scale-100 pointer-events-auto"
           : "opacity-100 pointer-events-auto md:opacity-0 md:pointer-events-none md:-translate-y-4 md:scale-95"
           }`}>
