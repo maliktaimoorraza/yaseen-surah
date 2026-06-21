@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 export const metadata = {
   title: "Surah Yaseen (سورة يس) - Read Online, Audio MP3, PDF & Benefits",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <Script src="https://static.addtoany.com/menu/page.js" strategy="lazyOnload" />
       </body>
     </html>
   );
