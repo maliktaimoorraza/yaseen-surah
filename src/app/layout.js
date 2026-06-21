@@ -24,6 +24,20 @@ export default function RootLayout({ children }) {
           gtag('js', new Date());
           gtag('config', 'G-0SRB1CLD7Q');
         ` }} />
+        {/* Organization Schema JSON-LD */}
+        <script 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: `
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Surah Yaseen",
+              "alternateName": "Yaseen Surah",
+              "url": "https://surah-yaseen.org/",
+              "logo": "https://surah-yaseen.org/logo.jpg"
+            }
+          `}}
+        />
         <script dangerouslySetInnerHTML={{ __html: `
           try {
             if (localStorage.theme === 'dark') {
