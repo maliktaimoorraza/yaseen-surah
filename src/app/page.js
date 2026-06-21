@@ -222,7 +222,7 @@ export default function Homepage() {
           <span className="text-xs uppercase tracking-[0.25em] text-caribbean-green font-semibold mb-3.5 inline-block">
             Noble Qur&apos;an Chapter 36
           </span>
-          <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight text-white mb-6 font-sans">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white mb-6 font-sans">
             Surah Yaseen PDF Download, Read and Listen Online
           </h1>
           <p className="text-base text-gray-300 leading-relaxed font-sans mb-4">
