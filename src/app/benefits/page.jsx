@@ -54,34 +54,14 @@ export default function BenefitsPage() {
         </div>
       </section>
 
-      {/* Image Graphic Placeholder (Aspect-locked 1200px x 675px) */}
+      {/* Image Graphic (Aspect-locked 1200px x 675px) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-        <div className="relative w-full aspect-[1200/675] max-w-[1200px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-caribbean-green/20 bg-gradient-to-tr from-rich-black via-dark-green to-rich-black flex flex-col justify-center items-center p-6 text-center">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white/5 font-arabic text-[9vw] select-none pointer-events-none">
-            فضائل سورة يس
-          </div>
-          <div className="relative z-10 max-w-lg mx-auto">
-            <div className="w-16 h-16 rounded-full bg-bangladesh-green/30 border border-caribbean-green/20 flex items-center justify-center mx-auto mb-5">
-              <Shield className="w-8 h-8 text-caribbean-green" />
-            </div>
-            <h2 className="text-xl sm:text-3xl font-extrabold text-white mb-2 font-sans">
-              Spiritual Blessings of Surah Yaseen
-            </h2>
-            <p className="text-xs sm:text-sm text-gray-400 max-w-sm mx-auto leading-relaxed mb-6">
-              A comprehensive analytical compilation of authenticated prophetic traditions regarding Chapter 36.
-            </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <span className="text-[10px] bg-rich-black/75 px-4 py-2 rounded-full border border-caribbean-green/10 text-gray-300">
-                Forgiveness of Sins
-              </span>
-              <span className="text-[10px] bg-rich-black/75 px-4 py-2 rounded-full border border-caribbean-green/10 text-gray-300">
-                Ease in Difficulties
-              </span>
-              <span className="text-[10px] bg-rich-black/75 px-4 py-2 rounded-full border border-caribbean-green/10 text-gray-300">
-                Resurrection Proofs
-              </span>
-            </div>
-          </div>
+        <div className="relative w-full aspect-[1200/675] max-w-[1200px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-caribbean-green/20 bg-gradient-to-tr from-rich-black via-dark-green to-rich-black">
+          <img 
+            src="/surah-yaseen-benefits.png" 
+            alt="worldly and spirtual benefits of surah yaseen" 
+            className="w-full h-full object-cover rounded-3xl"
+          />
         </div>
       </section>
 
