@@ -225,9 +225,11 @@ export default function Homepage() {
           <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight text-white mb-6 font-sans">
             Surah Yaseen Read Online
           </h1>
-          {/* Exactly 100 words Intro */}
+          <p className="text-base text-gray-300 leading-relaxed font-sans mb-4">
+            Surah Yaseen is a 36th Chapter of Holy Quran that comes in 22nd and 23rd para. It was revealed to Prophet Muhammad (PBUH) in Mecca, so it is a Meccan Surah. According to Prophet Muhammad everything has a heart and the heart of the Quran is Yaseen Surah and its recitation offers many worldly and <a href="/translation" className="nav-link" title="Surah Yaseen Benfits">spirtual benefits</a> to its readers.
+          </p>
           <p className="text-base text-gray-300 leading-relaxed font-sans">
-            Welcome to Surah Yaseen, a dedicated sanctuary designed to help you connect deeply with the heart of the Holy Qur&apos;an. Surah Yaseen, the thirty-sixth chapter, holds immense spiritual weight, offering light, comfort, and multiple rewards for those who recite it with devotion. Our platform is engineered to elevate your experience by providing a premium, interactive verse-by-verse reader, high-quality audio recitation toggles, customized translation views, and detailed pronunciation guides. Here, you can read online, download optimized PDF documents, and stream prominent reciters, establishing a powerful and transformative daily habit of reflection, study, and learning from this noble scripture with ease.
+            You can read Surah Yaseen online here on surah-yaseen.org along with Surah Yaseen PDF download. There you will listen to the soulful recitation of Surah e Yaseen by Sheikh Mishary Rashid Alafasy and Sheikh Abdurrahmaan As-Sudais. Apart from listening to the recitation you can download it in MP3.
           </p>
 
           {/* Quick-Navigation Buttons */}
