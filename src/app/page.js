@@ -672,7 +672,7 @@ export default function Homepage() {
                   href="https://server11.mp3quran.net/afs/036.mp3"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-center text-[10px] text-gray-400 hover:text-caribbean-green underline transition-colors"
+                  className="text-center text-xs font-semibold text-caribbean-green hover:underline transition-colors"
                 >
                   Alternative Download Link (Mirror)
                 </a>
@@ -722,7 +722,7 @@ export default function Homepage() {
                   href="https://server11.mp3quran.net/sds/036.mp3"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-center text-[10px] text-gray-400 hover:text-caribbean-green underline transition-colors"
+                  className="text-center text-xs font-semibold text-caribbean-green hover:underline transition-colors"
                 >
                   Alternative Download Link (Mirror)
                 </a>

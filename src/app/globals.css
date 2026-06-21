@@ -192,3 +192,20 @@ body {
   text-shadow: 0 0 1px rgba(94, 175, 115, 0.25);
 }
 
+/* Custom Text/Paragraph Links to ensure high visibility in both light & dark themes */
+p a,
+.prose a,
+a.text-link {
+  color: var(--caribbean-green);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+p a:hover,
+.prose a:hover,
+a.text-link:hover {
+  opacity: 0.8;
+}
+
