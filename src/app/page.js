@@ -25,7 +25,7 @@ export default function Homepage() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
   // Audio Player States
   const [currentVerseIndex, setCurrentVerseIndex] = useState(null); // 0 to 82
   const [isPlaying, setIsPlaying] = useState(false);
@@ -57,14 +57,14 @@ export default function Homepage() {
 
   const playAudio = (index, reciterName = selectedReciter) => {
     if (!audioRef.current) return;
-    
+
     const verseNum = String(index + 1).padStart(3, "0");
-    const reciterPath = reciterName === "alafasy" 
-      ? "Alafasy_64kbps" 
+    const reciterPath = reciterName === "alafasy"
+      ? "Alafasy_64kbps"
       : "Abdurrahmaan_As-Sudais_64kbps";
-    
+
     const audioUrl = `https://everyayah.com/data/${reciterPath}/036${verseNum}.mp3`;
-    
+
     audioRef.current.src = audioUrl;
     audioRef.current.load();
     audioRef.current.play()
@@ -181,35 +181,35 @@ export default function Homepage() {
   // FAQs - exact 35-to-50 words per answer
   const faqs = [
     {
-      q: "How many ayat in Surah Yaseen?",
-      a: "Surah Yaseen contains exactly eighty-three verses (ayat), seven hundred and twenty-nine words, and three thousand letters. It is the thirty-sixth surah of the Noble Qur'an, positioned primarily in Juz twenty-two and twenty-three, and classified as a Meccan surah."
+      q: "How Many Ayat In Surah Yaseen?",
+      a: "Surah Yaseen has eighty-three verses (ayat), seven hundred and twenty-nine words, and three thousand letters. It is the 36th Chapter of the Holy Qur'an, positioned primarily in Juz 22nd and 23rd, and is a Meccan Surah."
     },
     {
-      q: "How to learn Surah Yaseen?",
-      a: "To memorize Surah Yaseen easily, break down the eighty-three verses into smaller sections of five verses daily. Use our interactive word-by-word pronunciation guide, listen to Mishary Alafasy or Qari Sudais recitation audio repeatedly, and revise regularly to reinforce the verses."
+      q: "How To Learn Surah Yaseen?",
+      a: "To easily memorize Surah Yasin, break it down into 5 verses for daily memorization. Along with that, you can use our word-by-word pronunciation guide. And listen to Mishary Alafasy or Qari Sudais recitation audio repeatedly to aid the process."
     },
     {
-      q: "When to read Surah Yaseen?",
-      a: "Reciting Surah Yaseen in the morning is highly recommended, as authenticated Hadiths suggest it fulfills all daily needs for the reciter. Additionally, reading it at night or for those passing away brings peace, mercy, and forgiveness of sins."
+      q: "When To Read Surah Yaseen?",
+      a: "Many scholars recommend reciting Surah Yaseen in the early morning. And authentic Hadiths say that its recitation fulfills all the daily spiritual needs for a believer. Additionally, reading it at night or for those passing away can bring peace, mercy, and forgiveness of sins."
     },
     {
-      q: "How to read Surah Yaseen?",
-      a: "Read Surah Yaseen with tajweed rules by following our online phonetic transliteration. Ensure you are in a clean state of wudu, begin with seek protection from Shaytan, recite slowly, and use our dual translation layers to reflect on its deep meanings."
+      q: "How To Read Surah Yaseen?",
+      a: "Read Surah Yaseen as per the tajweed rules by following phonetic transliteration. Ensure you are in a state of wudu, begin with seeking protection from Shaytan, recite slowly, and use our dual translation layers to properly understand its deep meanings."
     },
     {
-      q: "What is Surah Yaseen good for?",
-      a: "Surah Yaseen is a powerful source of spiritual healing, ease in difficulties, and forgiveness of sins. Often described as the heart of the Quran, its recitation strengthens faith, brings peace to restless minds, and fulfills various legitimate worldly needs."
+      q: "What Is Surah Yaseen Good For?",
+      a: "Surah Yaseen is an effective source of spiritual healing, ease in difficulties, and forgiveness of sins. As per Hadiths, it is the heart of the Quran, its recitation strengthens faith, brings peace to restless minds, and fulfills many worldly needs."
     },
     {
-      q: "Why Surah Yaseen is called heart of quran?",
-      a: "Prophet Muhammad (PBUH) stated that everything has a heart, and the heart of the Qur'an is Surah Yaseen. It encapsulates the core messages of Islam, focusing on tawheed (monotheism), risalah (prophethood), and the undeniable reality of life after death."
+      q: "Why Surah Yaseen Is Called Heart Of Quran?",
+      a: "Prophet Muhammad (PBUH) stated that everything has a heart, and the heart of the Qur'an is Surah Yaseen. It presents the core messages of Islam, focusing on tawheed (monotheism), risalah (prophethood), and the undeniable reality of life after death."
     },
     {
-      q: "When was Surah Yaseen revealed?",
-      a: "Surah Yaseen was revealed in Makkah during the middle phase of prophethood. It was sent to strengthen the faith of early Muslims, establish the truth of the Prophet’s mission, and warn the stubborn leaders of Quraysh who rejected monotheism."
+      q: "When Was Surah Yaseen Revealed?",
+      a: "Surah Yaseen was revealed in Mecca during the middle phase of prophethood. Its revelation strengthen the faith of early Muslims, establish the truth of the Prophet’s mission, and warn the stubborn leaders of Quraysh who rejected monotheism."
     },
     {
-      q: "Can you recite Surah Yaseen without wudu?",
+      q: "Can You Recite Surah Yaseen Without Wudu?",
       a: "It is highly recommended and standard practice to perform wudu before touching the Arabic text of Surah Yaseen. However, if you are reciting from memory or reading translations from digital screens without touching Arabic script, wudu is not strictly mandatory."
     }
   ];
@@ -262,9 +262,9 @@ export default function Homepage() {
       {/* Hero Image / Banner Panel (Exactly 1200px x 675px Aspect-Ratio Wrapper) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 no-print">
         <div className="relative w-full aspect-[1200/675] max-w-[1200px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-caribbean-green/20 bg-gradient-to-br from-dark-green to-rich-black">
-          <img 
-            src="/surah-yaseen-pdf-download.png" 
-            alt="surah yaseen download pdf" 
+          <img
+            src="/surah-yaseen-banner.png"
+            alt="Surah Yaseen Comprehensive Access"
             className="w-full h-full object-cover rounded-3xl"
           />
         </div>
@@ -274,11 +274,10 @@ export default function Homepage() {
       <section id="read-online" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 scroll-mt-24">
 
         {/* Control Dashboard Panel (no-print) */}
-        <div className={`fixed bottom-0 left-0 right-0 border-t border-caribbean-green/20 rounded-none shadow-2xl p-3 grid grid-cols-2 gap-3.5 no-print bg-dark-green z-40 transition-all duration-300 md:sticky md:top-20 md:border md:rounded-2xl md:shadow-xl md:mb-8 md:flex md:flex-row md:items-center md:justify-between md:gap-5 md:p-5 ${
-          isPageScrolled 
-            ? "opacity-100 translate-y-0 scale-100 pointer-events-auto" 
-            : "opacity-100 pointer-events-auto md:opacity-0 md:pointer-events-none md:-translate-y-4 md:scale-95"
-        }`}>
+        <div className={`fixed bottom-0 left-0 right-0 border-t border-caribbean-green/20 rounded-none shadow-2xl p-3 grid grid-cols-2 gap-3.5 no-print bg-dark-green z-40 transition-all duration-300 md:sticky md:top-20 md:border md:rounded-2xl md:shadow-xl md:mb-8 md:flex md:flex-row md:items-center md:justify-between md:gap-5 md:p-5 ${isPageScrolled
+          ? "opacity-100 translate-y-0 scale-100 pointer-events-auto"
+          : "opacity-100 pointer-events-auto md:opacity-0 md:pointer-events-none md:-translate-y-4 md:scale-95"
+          }`}>
           {/* Reciter selector pill */}
           <div className="flex flex-col gap-1 md:gap-2 w-full md:w-auto">
             <span className="text-[10px] uppercase font-semibold text-caribbean-green tracking-wider hidden md:block">
@@ -287,21 +286,19 @@ export default function Homepage() {
             <div className="inline-flex bg-rich-black p-0.5 md:p-1 rounded-xl border border-caribbean-green/10 w-full md:w-auto justify-between md:justify-start">
               <button
                 onClick={() => setSelectedReciter("alafasy")}
-                className={`flex-1 md:flex-initial px-2 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-semibold rounded-lg transition-all duration-300 ${
-                  selectedReciter === "alafasy"
-                    ? "bg-bangladesh-green text-real-white shadow-md shadow-caribbean-green/10"
-                    : "text-gray-400 hover:text-white"
-                }`}
+                className={`flex-1 md:flex-initial px-2 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-semibold rounded-lg transition-all duration-300 ${selectedReciter === "alafasy"
+                  ? "bg-bangladesh-green text-real-white shadow-md shadow-caribbean-green/10"
+                  : "text-gray-400 hover:text-white"
+                  }`}
               >
                 Mishary Alafasy
               </button>
               <button
                 onClick={() => setSelectedReciter("sudais")}
-                className={`flex-1 md:flex-initial px-2 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-semibold rounded-lg transition-all duration-300 ${
-                  selectedReciter === "sudais"
-                    ? "bg-bangladesh-green text-real-white shadow-md shadow-caribbean-green/10"
-                    : "text-gray-400 hover:text-white"
-                }`}
+                className={`flex-1 md:flex-initial px-2 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-semibold rounded-lg transition-all duration-300 ${selectedReciter === "sudais"
+                  ? "bg-bangladesh-green text-real-white shadow-md shadow-caribbean-green/10"
+                  : "text-gray-400 hover:text-white"
+                  }`}
               >
                 Qari Sudais
               </button>
@@ -376,11 +373,10 @@ export default function Homepage() {
           <div className="flex items-center gap-2 w-full md:w-auto pt-0 border-t-0 md:pt-0 md:border-t-0 col-span-2 md:col-span-1 justify-center md:justify-start">
             <button
               onClick={togglePlayFullSurah}
-              className={`flex items-center justify-center gap-1.5 px-4 py-2.5 md:px-5 md:py-3 rounded-xl text-[10px] md:text-xs font-bold uppercase tracking-wider transition-all duration-300 w-full md:w-auto shadow-md ${
-                isPlaying && continuousPlay
-                  ? "bg-amber-600 hover:bg-amber-500 text-real-white shadow-amber-600/10"
-                  : "bg-gradient-to-r from-bangladesh-green to-caribbean-green hover:opacity-95 text-real-white shadow-caribbean-green/10"
-              }`}
+              className={`flex items-center justify-center gap-1.5 px-4 py-2.5 md:px-5 md:py-3 rounded-xl text-[10px] md:text-xs font-bold uppercase tracking-wider transition-all duration-300 w-full md:w-auto shadow-md ${isPlaying && continuousPlay
+                ? "bg-amber-600 hover:bg-amber-500 text-real-white shadow-amber-600/10"
+                : "bg-gradient-to-r from-bangladesh-green to-caribbean-green hover:opacity-95 text-real-white shadow-caribbean-green/10"
+                }`}
             >
               {isPlaying && continuousPlay ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 fill-current" />}
               <span>{isPlaying && continuousPlay ? "Pause Audio" : "Play Full Surah"}</span>
@@ -418,27 +414,25 @@ export default function Homepage() {
               <div
                 key={ayah.id}
                 id={`ayah-card-${ayah.id}`}
-                className={`rounded-2xl p-6 sm:p-8 transition-all duration-500 border ${
-                  isAyahActive
-                    ? "active-card"
-                    : "glass-card border-caribbean-green/10"
-                } print-card print-page-break`}
+                className={`rounded-2xl p-6 sm:p-8 transition-all duration-500 border ${isAyahActive
+                  ? "active-card"
+                  : "glass-card border-caribbean-green/10"
+                  } print-card print-page-break`}
               >
                 {/* Verse Header Info */}
                 <div className="flex items-center justify-between border-b border-caribbean-green/10 pb-4 mb-5 no-print">
                   <span className="inline-flex items-center justify-center px-3 py-1 rounded-full bg-rich-black text-xs font-semibold text-caribbean-green border border-caribbean-green/20">
                     Verse {ayah.verse_key}
                   </span>
-                  
+
                   {/* Actions (Play audio, deep links) */}
                   <div className="flex items-center gap-2">
                     <button
                       onClick={() => togglePlayVerse(idx)}
-                      className={`w-9 h-9 rounded-lg flex items-center justify-center border transition-all ${
-                        isAyahActive
-                          ? "bg-caribbean-green text-rich-black border-caribbean-green"
-                          : "bg-rich-black border-caribbean-green/20 text-gray-400 hover:text-white hover:border-caribbean-green/50"
-                      }`}
+                      className={`w-9 h-9 rounded-lg flex items-center justify-center border transition-all ${isAyahActive
+                        ? "bg-caribbean-green text-rich-black border-caribbean-green"
+                        : "bg-rich-black border-caribbean-green/20 text-gray-400 hover:text-white hover:border-caribbean-green/50"
+                        }`}
                       title={isAyahActive ? "Pause Recitation" : "Play Recitation"}
                     >
                       {isAyahActive ? <Pause className="w-4 h-4 fill-current" /> : <Play className="w-4 h-4 fill-current ml-0.5" />}
@@ -454,10 +448,9 @@ export default function Homepage() {
                 </div>
 
                 {/* Arabic Script */}
-                <div 
-                  className={`font-arabic text-right mb-6 select-none print-arabic transition-all duration-500 ${
-                    isAyahActive ? "active-arabic" : "text-white"
-                  }`}
+                <div
+                  className={`font-arabic text-right mb-6 select-none print-arabic transition-all duration-500 ${isAyahActive ? "active-arabic" : "text-white"
+                    }`}
                   style={{ fontSize: `${arabicSize}rem`, lineHeight: 2 }}
                 >
                   {ayah.arabic}
@@ -470,9 +463,8 @@ export default function Homepage() {
                       <span className="text-[10px] font-bold text-caribbean-green/80 uppercase tracking-wider no-print">
                         Transliteration
                       </span>
-                      <p className={`text-sm italic leading-relaxed transition-colors duration-500 ${
-                        isAyahActive ? "text-caribbean-green font-semibold" : "text-caribbean-green/90"
-                      }`}>
+                      <p className={`text-sm italic leading-relaxed transition-colors duration-500 ${isAyahActive ? "text-caribbean-green font-semibold" : "text-caribbean-green/90"
+                        }`}>
                         {ayah.transliteration}
                       </p>
                     </div>
@@ -483,9 +475,8 @@ export default function Homepage() {
                       <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider no-print">
                         English Translation (Sahih International)
                       </span>
-                      <p className={`text-sm sm:text-base leading-relaxed transition-colors duration-500 ${
-                        isAyahActive ? "text-pure-white font-medium" : "text-gray-100"
-                      }`}>
+                      <p className={`text-sm sm:text-base leading-relaxed transition-colors duration-500 ${isAyahActive ? "text-pure-white font-medium" : "text-gray-100"
+                        }`}>
                         {ayah.english}
                       </p>
                     </div>
@@ -496,9 +487,8 @@ export default function Homepage() {
                       <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider no-print">
                         اردو ترجمہ (جالندھری)
                       </span>
-                      <p className={`text-base sm:text-lg leading-loose font-sans transition-colors duration-500 ${
-                        isAyahActive ? "text-pure-white font-bold" : "text-white font-medium"
-                      }`}>
+                      <p className={`text-base sm:text-lg leading-loose font-sans transition-colors duration-500 ${isAyahActive ? "text-pure-white font-bold" : "text-white font-medium"
+                        }`}>
                         {ayah.urdu}
                       </p>
                     </div>
@@ -519,7 +509,7 @@ export default function Homepage() {
               Surah Yaseen Key Structural Facts
             </h2>
           </div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
             {/* Tabular Grid */}
             <div className="lg:col-span-2 overflow-x-auto">
@@ -553,7 +543,7 @@ export default function Homepage() {
                 Core Summary
               </span>
               <p className="text-xs text-gray-300 leading-relaxed font-sans">
-                Surah Yaseen emphasizes the divine origin of the Qur'an, warns of the consequences of disbelief, and beautifully highlights the resurrection, Allah's sovereignty, and signs of nature as guidance for mankind.
+                Yaseen Surah emphasizes the origin of the Holy Quran. It warns about the consequences of disbelief, and beautifully highlights the resurrection, Allah's sovereignty, and signs of nature as guidance for humanity
               </p>
             </div>
           </div>
@@ -569,23 +559,23 @@ export default function Homepage() {
               Surah Yaseen History
             </h2>
             <p className="text-sm text-gray-300 leading-relaxed font-sans mb-4">
-              Revealed in Makkah during the middle period of the Prophet Muhammad&apos;s (PBUH) mission, Surah Yaseen was sent to reassure the early believers facing severe persecution. It addresses the theological challenges of the polytheistic Quraysh and establishes absolute evidence of divine messengers.
+              This Chapter was revealed to Prophet Muhammad’s during the middle of his earthly mission in Mecca. Its purpose is to reassure the early believers who were facing severe oppression from non- believers. Apart from that, it answers the religious arguments of the polytheistic Quraysh tribe and proves that God's messengers were real.
             </p>
             <p className="text-sm text-gray-300 leading-relaxed font-sans">
-              Historically, this chapter served as a strong defense of the Prophethood (risalah). By detailing historical accounts of past cities that rejected their guides and faced sudden annihilation, it warned of persistent disbelief.
+              Historically, this chapter strongly defended the idea of Prophethood. It shared stories of ancient cities that ignored their leaders and were suddenly destroyed, serving as a big warning to anyone who refused to believe.
             </p>
           </div>
 
           {/* Themes Card */}
           <div className="glass-card rounded-3xl p-8 border border-caribbean-green/10">
             <h2 className="text-2xl font-bold text-white mb-4 font-sans border-b border-caribbean-green/10 pb-3">
-              What is Surah Yaseen About?
+              What Is Surah Yaseen About?
             </h2>
             <p className="text-sm text-gray-300 leading-relaxed font-sans mb-4">
-              The primary theme of Surah Yaseen revolves around the absolute sovereignty of Allah (tawheed), the confirmation of prophethood, and the certainty of the Day of Judgment (akhirah). It presents the resurrection of souls as an undeniable natural reality.
+              The main theme of Surah e Yaseen is the sovereignty of Allah Almighty (Tawheed), the confirmation of Prophethood, and the validation of the Day of Judgment (Akhirah). Moreover, it notifies the resurrection of souls as an unquestionable natural reality.
             </p>
             <p className="text-sm text-gray-300 leading-relaxed font-sans">
-              It also presents numerous visual signs from nature—such as the reviving of dead land, the alternating cycles of day and night, the orbit of the sun and moon, and the sailing of ships across oceans—as proofs of divine mercy and power.
+              It also uses various examples from the natural world to show signs of a Creator. For example, the reviving of dead land, the occurrence of day and night in cycles, the revolving of the sun and moon, and the sailing of ships across oceans are proofs of Allah’s mercy and power.
             </p>
           </div>
         </div>
@@ -603,7 +593,7 @@ export default function Homepage() {
             </div>
             {/* Exactly 45 words Explanatory paragraph */}
             <p className="text-sm text-gray-300 leading-relaxed font-sans">
-              Easily export the complete Surah Yaseen text including your custom selected translations and font size preferences. Our optimized print utility formats the scripture into an A4 layout booklet for offline reading, reciting, or sharing, ensuring a beautiful, distraction-free typography layout on physical paper with ease.
+              You can easily save and print the entire Surah Yaseen text with your favorite translation and font size. Our tool automatically sets it up to fit perfectly onto regular A4 paper, making a clean, easy-to-read booklet. Therefore, you can use it offline and share it with your family and friends.
             </p>
           </div>
           <button
@@ -611,7 +601,7 @@ export default function Homepage() {
             className="flex items-center justify-center gap-2.5 bg-bangladesh-green hover:bg-caribbean-green hover:text-rich-black text-real-white font-bold py-4 px-7 rounded-2xl shadow-lg shadow-caribbean-green/10 hover:shadow-xl transition-all duration-300 w-full md:w-auto shrink-0 font-sans cursor-pointer group"
           >
             <Download className="w-5 h-5 group-hover:-translate-y-0.5 transition-transform duration-300" />
-            <span>Export to PDF Booklet</span>
+            <span>Download PDF</span>
           </button>
         </div>
       </section>
@@ -622,12 +612,12 @@ export default function Homepage() {
           <div className="flex items-center gap-2.5 mb-6">
             <Volume2 className="w-5 h-5 text-caribbean-green animate-pulse" />
             <h2 className="text-2xl font-bold text-pure-white font-sans">
-              Surah Yaseen MP3 Audio Download
+              Surah Yaseen MP3 Download
             </h2>
           </div>
-          
+
           <p className="text-sm text-gray-300 leading-relaxed font-sans mb-8">
-            Listen to and download the complete recitation of Surah Yaseen offline. Choose between two of the most popular and inspiring recitation styles in the world: the melodious, measured tartil of Sheikh Alafasy or the powerful, emotional pacing of Sheikh As-Sudais.
+            You can listen to and download the <a href="/reciters" class="nav-link" title="Surah Reciters">full recitation of Surah Yaseen</a> to explore offline right here. Choose between two of the world's most famous and inspiring reciters. Pick the slow and calm style of Sheikh Alafasy or the powerful and religiously emotional style of Sheikh As-Sudais.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -660,7 +650,7 @@ export default function Homepage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex flex-col gap-2">
                 <a
                   href="https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/036.mp3"
@@ -710,7 +700,7 @@ export default function Homepage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex flex-col gap-2">
                 <a
                   href="https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/036.mp3"
@@ -742,8 +732,7 @@ export default function Homepage() {
               <HelpCircle className="w-6 h-6 text-caribbean-green animate-pulse" /> Frequently Asked Questions
             </h2>
             <p className="text-sm text-gray-400 mt-2 font-sans">
-              Find reliable, contextual answers regarding recitation, guidelines, and structural metrics.
-            </p>
+              Explore clear guidelines, recitation tips, and complete structural details.            </p>
           </div>
 
           <div className="space-y-4">
@@ -759,10 +748,9 @@ export default function Homepage() {
                   <span className="pr-4">{faq.q}</span>
                   <ChevronDown className={`w-5 h-5 text-caribbean-green transition-transform duration-300 ${openFaq === i ? "rotate-180" : ""}`} />
                 </button>
-                
-                <div className={`transition-all duration-300 overflow-hidden ${
-                  openFaq === i ? "max-h-48 border-t border-caribbean-green/5" : "max-h-0"
-                }`}>
+
+                <div className={`transition-all duration-300 overflow-hidden ${openFaq === i ? "max-h-48 border-t border-caribbean-green/5" : "max-h-0"
+                  }`}>
                   <p className="p-5 text-sm text-gray-300 leading-relaxed font-sans">
                     {faq.a}
                   </p>
@@ -782,7 +770,7 @@ export default function Homepage() {
             </h2>
             {/* Exactly 50-word text block */}
             <p className="text-sm text-gray-400 mt-4 max-w-2xl mx-auto leading-relaxed font-sans">
-              Enhance your listening and learning experience by watching these high-quality video recitations of Surah Yaseen. Follow the correct Uthmani script and tajweed rules visually while listening to the renowned voices of Qari Abdurrahmaan As-Sudais and Sheikh Mishary Rashid Alafasy, perfect for correct pronunciation and spiritual reflection in daily recitation.
+              You can improve your learning experience by watching these quality Surah Yaseen Recitation videos.  Follow the correct Uthmani script and tajweed rules visually while listening to the famous voices of Qari Abdurrahmaan As-Sudais and Sheikh Mishary Rashid Alafasy. They are perfect for <a href="/pronunciation" class="nav-link" title="Surah Yaseen Pronunciation">accurate pronunciation</a> and spiritual reflection in daily recitation.
             </p>
           </div>
 
@@ -837,7 +825,7 @@ export default function Homepage() {
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
           <h2 className="text-xl font-bold text-white mb-4 font-sans">The Bottom Line</h2>
           <p className="text-base text-gray-200 leading-relaxed italic font-sans">
-            &quot;In conclusion, Surah Yaseen stands as a profound source of light and guidance, offering unmatched spiritual benefits to everyone who approaches it with sincerity. By utilizing the advanced features of Surah Yaseen, you can seamlessly read, study translations, practice pronunciation, and listen to beautiful recitations daily. Embrace the teachings of this glorious chapter, share these blessed materials with others, and cultivate a lasting spiritual connection with the Holy Quran.&quot;
+            &quot;To Sum It Up, Surah Yaseen stands as a genuine source of light and guidance. It offers unmatched spiritual benefits to everyone who recites and understands deeply. By using the options available on our website, you can seamlessly read, study translations, practice pronunciation, and listen to soulful recitation on a daily basis. Adopt the teachings of this divine chapter and share it with others for the spiritual blessings for you and your family.&quot;
           </p>
         </div>
       </section>
