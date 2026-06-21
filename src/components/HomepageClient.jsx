@@ -625,9 +625,9 @@ export default function HomepageClient() {
             <div className="bg-dark-green/40 border border-caribbean-green/10 p-6 rounded-2xl flex flex-col justify-between hover:border-caribbean-green/30 transition-colors duration-300">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-bold text-white text-base font-sans">
+                  <h4 className="font-bold text-white text-base font-sans">
                     Sheikh Mishary Rashid Alafasy
-                  </h3>
+                  </h4>
                   <span className="text-[10px] bg-bangladesh-green/20 text-caribbean-green px-2.5 py-1 rounded-full font-semibold border border-caribbean-green/15">
                     Tartil Style
                   </span>
@@ -675,9 +675,9 @@ export default function HomepageClient() {
             <div className="bg-dark-green/40 border border-caribbean-green/10 p-6 rounded-2xl flex flex-col justify-between hover:border-caribbean-green/30 transition-colors duration-300">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-bold text-white text-base font-sans">
+                  <h4 className="font-bold text-white text-base font-sans">
                     Sheikh Abdurrahmaan As-Sudais
-                  </h3>
+                  </h4>
                   <span className="text-[10px] bg-bangladesh-green/20 text-caribbean-green px-2.5 py-1 rounded-full font-semibold border border-caribbean-green/15">
                     Hadar Style
                   </span>
@@ -787,9 +787,9 @@ export default function HomepageClient() {
                 ></iframe>
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
-                <h3 className="font-bold text-white text-base mb-1 font-sans">
+                <h4 className="font-bold text-white text-base mb-1 font-sans">
                   Qari Sudais Recitation
-                </h3>
+                </h4>
                 <p className="text-xs text-gray-400 leading-relaxed font-sans">
                   Visual Uthmani script recitation video voiced by Sheikh Abdurrahmaan As-Sudais, Chief Imam of Masjid al-Haram.
                 </p>
@@ -808,9 +808,9 @@ export default function HomepageClient() {
                 ></iframe>
               </div>
               <div className="p-5 flex-1 flex flex-col justify-between">
-                <h3 className="font-bold text-white text-base mb-1 font-sans">
+                <h4 className="font-bold text-white text-base mb-1 font-sans">
                   Mishary Rashid Alafasy Recitation
-                </h3>
+                </h4>
                 <p className="text-xs text-gray-400 leading-relaxed font-sans">
                   Melodious recitation video voiced by Sheikh Mishary Rashid Alafasy, featuring Uthmani calligraphy layout tracks.
                 </p>
