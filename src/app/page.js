@@ -263,8 +263,8 @@ export default function Homepage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 no-print">
         <div className="relative w-full aspect-[1200/675] max-w-[1200px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-caribbean-green/20 bg-gradient-to-br from-dark-green to-rich-black">
           <img
-            src="/surah-yaseen-banner.png"
-            alt="Surah Yaseen Comprehensive Access"
+            src="/surah-yaseen-pdf-download.png"
+            alt="surah yaseen download pdf"
             className="w-full h-full object-cover rounded-3xl"
           />
         </div>
