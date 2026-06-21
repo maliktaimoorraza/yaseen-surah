@@ -341,6 +341,7 @@ export default function RecitersPage() {
       {/* Concluding Insight Component (Exactly 60 words) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
+          <h2 className="text-xl font-bold text-white mb-4 font-sans">The Bottom Line</h2>
           <p className="text-sm text-gray-200 leading-relaxed italic font-sans font-medium">
             "In summary, Sheikh Abdurrahmaan As-Sudais and Sheikh Mishary Rashid Alafasy offer two masterclasses in modern Quranic reading styles. By comparing their unique vocal ranges and historical backgrounds, readers can decide which recitation style best fits their learning goals. Explore their full audios, practice tajweed, and share these profiles with fellow students to keep these noble traditions alive today with ease."
           </p>

@@ -300,6 +300,7 @@ export default function PronunciationPage() {
       {/* Concluding Insight Component (Exactly 60 words) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
+          <h2 className="text-xl font-bold text-white mb-4 font-sans">The Bottom Line</h2>
           <p className="text-sm text-gray-200 leading-relaxed italic font-sans font-medium">
             "In conclusion, mastering the pronunciation of Surah Yaseen is a highly rewarding spiritual and academic pursuit. By combining our tokenized word-by-word synthesis engine with detailed tajweed rules, you can steadily improve your recitation accuracy. Continue practicing, listen to Sheikh Alafasy or Sheikh Sudais, and share this dashboard with fellow students to spread correct Quranic phonics with absolute ease today now."
           </p>

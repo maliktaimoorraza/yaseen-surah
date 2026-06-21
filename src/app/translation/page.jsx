@@ -192,6 +192,7 @@ export default function TranslationLanding() {
       {/* Concluding Insight Component (Exactly 50 words) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
+          <h2 className="text-xl font-bold text-white mb-4 font-sans">The Bottom Line</h2>
           <p className="text-sm text-gray-200 leading-relaxed italic font-sans">
             "In conclusion, exploring multiple translations of Surah Yaseen is essential to grasping the complete message of this glorious chapter. Whether you study in Urdu, Hindi, or English, each translation offers unique linguistic perspectives. Please use the cross-linked cards below to navigate smoothly through our independent, detailed translation pages right now."
           </p>

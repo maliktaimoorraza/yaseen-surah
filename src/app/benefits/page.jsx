@@ -171,6 +171,7 @@ export default function BenefitsPage() {
       {/* Concluding Insight Component (Exactly 60 words) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
+          <h2 className="text-xl font-bold text-white mb-4 font-sans">The Bottom Line</h2>
           <p className="text-sm text-gray-200 leading-relaxed italic font-sans font-medium">
             "In conclusion, cultivating a daily habit of reciting Surah Yaseen connects you to a wealth of spiritual and worldly blessings. From forgiveness of sins to immediate relief during times of distress, the heart of the Quran provides constant comfort. Explore these authenticated Hadiths, share the blessings with family, and let this glorious chapter bring light to your daily life today."
           </p>

@@ -833,6 +833,7 @@ export default function Homepage() {
       {/* Concluding Insight Component (Exactly 70 words) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 no-print">
         <div className="max-w-2xl mx-auto bg-dark-green/20 border border-caribbean-green/15 rounded-3xl p-8 text-center shadow-lg">
+          <h2 className="text-xl font-bold text-white mb-4 font-sans">The Bottom Line</h2>
           <p className="text-base text-gray-200 leading-relaxed italic font-sans">
             &quot;In conclusion, Surah Yaseen stands as a profound source of light and guidance, offering unmatched spiritual benefits to everyone who approaches it with sincerity. By utilizing the advanced features of Surah Yaseen, you can seamlessly read, study translations, practice pronunciation, and listen to beautiful recitations daily. Embrace the teachings of this glorious chapter, share these blessed materials with others, and cultivate a lasting spiritual connection with the Holy Quran.&quot;
           </p>
