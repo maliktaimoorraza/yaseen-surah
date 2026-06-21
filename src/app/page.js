@@ -171,6 +171,13 @@ export default function Homepage() {
     setOpenFaq(openFaq === index ? null : index);
   };
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   // FAQs - exact 35-to-50 words per answer
   const faqs = [
     {
@@ -222,47 +229,47 @@ export default function Homepage() {
           <p className="text-base text-gray-300 leading-relaxed font-sans">
             Welcome to Surah Yaseen, a dedicated sanctuary designed to help you connect deeply with the heart of the Holy Qur&apos;an. Surah Yaseen, the thirty-sixth chapter, holds immense spiritual weight, offering light, comfort, and multiple rewards for those who recite it with devotion. Our platform is engineered to elevate your experience by providing a premium, interactive verse-by-verse reader, high-quality audio recitation toggles, customized translation views, and detailed pronunciation guides. Here, you can read online, download optimized PDF documents, and stream prominent reciters, establishing a powerful and transformative daily habit of reflection, study, and learning from this noble scripture with ease.
           </p>
+
+          {/* Quick-Navigation Buttons */}
+          <div className="flex flex-wrap justify-center gap-4 mt-8">
+            <button
+              onClick={() => scrollToSection("read-online")}
+              className="flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold border border-caribbean-green/35 bg-bangladesh-green/10 hover:bg-bangladesh-green/30 text-pure-white shadow-md shadow-caribbean-green/5 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
+            >
+              <BookOpen className="w-4 h-4 text-caribbean-green" />
+              <span>Read Online</span>
+            </button>
+            <button
+              onClick={() => scrollToSection("pdf-download")}
+              className="flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold border border-caribbean-green/35 bg-bangladesh-green/10 hover:bg-bangladesh-green/30 text-pure-white shadow-md shadow-caribbean-green/5 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
+            >
+              <Download className="w-4 h-4 text-caribbean-green" />
+              <span>PDF Download</span>
+            </button>
+            <button
+              onClick={() => scrollToSection("mp3-download")}
+              className="flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold border border-caribbean-green/35 bg-bangladesh-green/10 hover:bg-bangladesh-green/30 text-pure-white shadow-md shadow-caribbean-green/5 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
+            >
+              <Volume2 className="w-4 h-4 text-caribbean-green" />
+              <span>MP3 Download</span>
+            </button>
+          </div>
         </div>
       </section>
 
       {/* Hero Image / Banner Panel (Exactly 1200px x 675px Aspect-Ratio Wrapper) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 no-print">
-        <div className="relative w-full aspect-[1200/675] max-w-[1200px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-caribbean-green/20 bg-gradient-to-br from-dark-green to-rich-black flex flex-col justify-center items-center p-6 text-center group">
-          {/* Glowing Calligraphy Pattern Background */}
-          <div className="absolute inset-0 opacity-10 mix-blend-overlay bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-caribbean-green via-transparent to-transparent pointer-events-none" />
-          
-          {/* Large calligraphic text placeholder layout */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white/5 font-arabic text-[12vw] select-none pointer-events-none transition-transform duration-700 group-hover:scale-105">
-            يس والقرآن الحكيم
-          </div>
-
-          <div className="relative z-10 max-w-xl mx-auto">
-            <div className="w-20 h-20 rounded-full bg-bangladesh-green/50 border border-caribbean-green/30 flex items-center justify-center mx-auto mb-6 shadow-xl shadow-rich-black/50">
-              <BookOpen className="w-10 h-10 text-caribbean-green" />
-            </div>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-white mb-4 tracking-wide font-sans">
-              سورہ یٰسین شریف
-            </h2>
-            <p className="text-sm sm:text-base text-gray-300 mb-8 max-w-md mx-auto leading-relaxed">
-              Experience the Noble Scripture with Interactive Translations, Word-by-Word Pronunciation, Audio Streams, and PDF booklet downloads.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 text-xs font-bold tracking-wider uppercase">
-              <span className="bg-rich-black/75 border border-caribbean-green/30 px-5 py-2.5 rounded-full text-caribbean-green">
-                ✓ Read Online
-              </span>
-              <span className="bg-rich-black/75 border border-caribbean-green/30 px-5 py-2.5 rounded-full text-caribbean-green">
-                ✓ PDF Download
-              </span>
-              <span className="bg-rich-black/75 border border-caribbean-green/30 px-5 py-2.5 rounded-full text-caribbean-green">
-                ✓ MP3 Audio Download
-              </span>
-            </div>
-          </div>
+        <div className="relative w-full aspect-[1200/675] max-w-[1200px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-caribbean-green/20 bg-gradient-to-br from-dark-green to-rich-black">
+          <img 
+            src="/surah-yaseen-banner.png" 
+            alt="Surah Yaseen Comprehensive Access" 
+            className="w-full h-full object-cover rounded-3xl"
+          />
         </div>
       </section>
 
       {/* Main Interactive Reader Dashboard */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+      <section id="read-online" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 scroll-mt-24">
 
         {/* Control Dashboard Panel (no-print) */}
         <div className={`fixed bottom-0 left-0 right-0 border-t border-caribbean-green/20 rounded-none shadow-2xl p-3 grid grid-cols-2 gap-3.5 no-print bg-dark-green z-40 transition-all duration-300 md:sticky md:top-20 md:border md:rounded-2xl md:shadow-xl md:mb-8 md:flex md:flex-row md:items-center md:justify-between md:gap-5 md:p-5 ${
@@ -583,7 +590,7 @@ export default function Homepage() {
       </section>
 
       {/* Document PDF Downloader Component */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 no-print">
+      <section id="pdf-download" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 no-print scroll-mt-24">
         <div className="bg-gradient-to-r from-dark-green to-rich-black border border-caribbean-green/20 rounded-3xl p-8 max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex-1">
             <div className="flex items-center gap-2 mb-3">
@@ -604,6 +611,124 @@ export default function Homepage() {
             <Download className="w-5 h-5 group-hover:-translate-y-0.5 transition-transform duration-300" />
             <span>Export to PDF Booklet</span>
           </button>
+        </div>
+      </section>
+
+      {/* Multimedia MP3 Downloader Section */}
+      <section id="mp3-download" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 no-print scroll-mt-24">
+        <div className="glass-card rounded-3xl p-8 max-w-4xl mx-auto border border-caribbean-green/20">
+          <div className="flex items-center gap-2.5 mb-6">
+            <Volume2 className="w-5 h-5 text-caribbean-green animate-pulse" />
+            <h2 className="text-2xl font-bold text-pure-white font-sans">
+              Surah Yaseen MP3 Audio Download
+            </h2>
+          </div>
+          
+          <p className="text-sm text-gray-300 leading-relaxed font-sans mb-8">
+            Listen to and download the complete recitation of Surah Yaseen offline. Choose between two of the most popular and inspiring recitation styles in the world: the melodious, measured tartil of Sheikh Alafasy or the powerful, emotional pacing of Sheikh As-Sudais.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Reciter 1 Card */}
+            <div className="bg-dark-green/40 border border-caribbean-green/10 p-6 rounded-2xl flex flex-col justify-between hover:border-caribbean-green/30 transition-colors duration-300">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="font-bold text-white text-base font-sans">
+                    Sheikh Mishary Rashid Alafasy
+                  </h3>
+                  <span className="text-[10px] bg-bangladesh-green/20 text-caribbean-green px-2.5 py-1 rounded-full font-semibold border border-caribbean-green/15">
+                    Tartil Style
+                  </span>
+                </div>
+                <p className="text-xs text-gray-400 leading-relaxed font-sans mb-6">
+                  A beautiful, calm, and slow recitation focusing on precise tajweed compliance and clear pronunciation, ideal for memorization and learning.
+                </p>
+                <div className="space-y-2 text-xs text-gray-300 mb-6">
+                  <div className="flex justify-between border-b border-caribbean-green/5 pb-2">
+                    <span className="text-gray-400">File Type:</span>
+                    <span className="font-semibold">High Quality MP3</span>
+                  </div>
+                  <div className="flex justify-between border-b border-caribbean-green/5 pb-2">
+                    <span className="text-gray-400">Bitrate:</span>
+                    <span className="font-semibold">128 Kbps</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-400">Duration:</span>
+                    <span className="font-semibold">16:45 Min</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex flex-col gap-2">
+                <a
+                  href="https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/036.mp3"
+                  download="Surah_Yaseen_Mishary_Alafasy.mp3"
+                  className="flex items-center justify-center gap-2 bg-bangladesh-green hover:bg-caribbean-green hover:text-rich-black text-real-white font-bold py-3 px-4 rounded-xl shadow-md transition-all duration-300 text-xs text-center"
+                >
+                  <Download className="w-4 h-4" />
+                  <span>Download MP3 Audio</span>
+                </a>
+                <a
+                  href="https://server11.mp3quran.net/afs/036.mp3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center text-[10px] text-gray-400 hover:text-caribbean-green underline transition-colors"
+                >
+                  Alternative Download Link (Mirror)
+                </a>
+              </div>
+            </div>
+
+            {/* Reciter 2 Card */}
+            <div className="bg-dark-green/40 border border-caribbean-green/10 p-6 rounded-2xl flex flex-col justify-between hover:border-caribbean-green/30 transition-colors duration-300">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="font-bold text-white text-base font-sans">
+                    Sheikh Abdurrahmaan As-Sudais
+                  </h3>
+                  <span className="text-[10px] bg-bangladesh-green/20 text-caribbean-green px-2.5 py-1 rounded-full font-semibold border border-caribbean-green/15">
+                    Hadar Style
+                  </span>
+                </div>
+                <p className="text-xs text-gray-400 leading-relaxed font-sans mb-6">
+                  An emotional, fast-paced, and highly passionate recitation by the Chief Imam of the Grand Mosque in Makkah, bringing immense spiritual awe.
+                </p>
+                <div className="space-y-2 text-xs text-gray-300 mb-6">
+                  <div className="flex justify-between border-b border-caribbean-green/5 pb-2">
+                    <span className="text-gray-400">File Type:</span>
+                    <span className="font-semibold">High Quality MP3</span>
+                  </div>
+                  <div className="flex justify-between border-b border-caribbean-green/5 pb-2">
+                    <span className="text-gray-400">Bitrate:</span>
+                    <span className="font-semibold">128 Kbps</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-400">Duration:</span>
+                    <span className="font-semibold">15:10 Min</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex flex-col gap-2">
+                <a
+                  href="https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/036.mp3"
+                  download="Surah_Yaseen_Abdurrahman_As_Sudais.mp3"
+                  className="flex items-center justify-center gap-2 bg-bangladesh-green hover:bg-caribbean-green hover:text-rich-black text-real-white font-bold py-3 px-4 rounded-xl shadow-md transition-all duration-300 text-xs text-center"
+                >
+                  <Download className="w-4 h-4" />
+                  <span>Download MP3 Audio</span>
+                </a>
+                <a
+                  href="https://server11.mp3quran.net/sds/036.mp3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center text-[10px] text-gray-400 hover:text-caribbean-green underline transition-colors"
+                >
+                  Alternative Download Link (Mirror)
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
