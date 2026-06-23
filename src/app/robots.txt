@@ -75,4 +75,4 @@ Allow: /
 # ------------------------------------------
 # Sitemaps & API Discovery
 # ------------------------------------------
-Sitemap: https://surah-yaseen.org/sitemap_index.xml
+Sitemap: https://surah-yaseen.org/sitemap.xml
