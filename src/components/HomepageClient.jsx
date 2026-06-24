@@ -226,7 +226,7 @@ export default function HomepageClient() {
             Surah Yaseen PDF Download, Read and Listen Online
           </h1>
           <p className="text-base text-gray-300 leading-relaxed font-sans mb-4">
-            Surah Yaseen is a 36th Chapter of Holy Quran that comes in 22nd and 23rd para. It was revealed to Prophet Muhammad (PBUH) in Mecca, so it is a Meccan Surah. According to Prophet Muhammad everything has a heart and the heart of the Quran is Yaseen Surah and its recitation offers many worldly and <a href="/translation" className="nav-link" title="Surah Yaseen Benefits">spiritual benefits</a> to its readers.
+            Surah Yaseen is a 36th Chapter of Holy Quran that comes in 22nd and 23rd para. It was revealed to Prophet Muhammad (PBUH) in Mecca, so it is a Meccan Surah. According to Prophet Muhammad everything has a heart and the heart of the Quran is Yaseen Surah and its recitation offers many worldly and <Link href="/translation" className="nav-link" title="Surah Yaseen Benefits">spiritual benefits</Link> to its readers.
           </p>
           <p className="text-base text-gray-300 leading-relaxed font-sans">
             You can read Surah Yaseen online here on surah-yaseen.org along with Surah Yaseen PDF download. There you will listen to the soulful recitation of Surah e Yaseen by Sheikh Mishary Rashid Alafasy and Sheikh Abdurrahmaan As-Sudais. Apart from listening to the recitation you can download it in MP3.

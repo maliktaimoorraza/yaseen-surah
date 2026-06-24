@@ -7,6 +7,7 @@ const eslintConfig = defineConfig([
     rules: {
       "react/no-unescaped-entities": "off",
       "react-hooks/set-state-in-effect": "off",
+      "@next/next/no-img-element": "off",
     }
   },
   // Override default ignores of eslint-config-next.

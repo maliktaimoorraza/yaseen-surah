@@ -71,6 +71,7 @@ export default function RecitersPage() {
       audio.pause();
       audio.removeEventListener("ended", handleEnded);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const togglePreview = (reciter) => {

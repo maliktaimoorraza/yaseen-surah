@@ -17,13 +17,15 @@ export default function RootLayout({ children }) {
     <html lang="en" className="h-full scroll-smooth">
       <head>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SRB1CLD7Q"></script>
-        <script dangerouslySetInnerHTML={{ __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-0SRB1CLD7Q');
-        ` }} />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-0SRB1CLD7Q" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-0SRB1CLD7Q');
+          `}
+        </Script>
         {/* Organization Schema JSON-LD */}
         <script 
           type="application/ld+json"
