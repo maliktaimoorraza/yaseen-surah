@@ -59,7 +59,7 @@ export default function BenefitsPage() {
         <div className="relative w-full aspect-[1200/675] max-w-[1200px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-caribbean-green/20 bg-gradient-to-tr from-rich-black via-dark-green to-rich-black">
           <img 
             src="/surah-yaseen-benefits.png" 
-            alt="worldly and spirtual benefits of surah yaseen" 
+            alt="worldly and spiritual benefits of surah yaseen" 
             className="w-full h-full object-cover rounded-3xl"
           />
         </div>
@@ -93,7 +93,7 @@ export default function BenefitsPage() {
             <div className="flex items-center gap-3 mb-4">
               <CheckCircle className="w-6 h-6 text-caribbean-green shrink-0" />
               <h3 className="text-lg font-bold text-white font-sans">
-                2. Fulfillment of Wordly and Spiritual Needs
+                2. Fulfillment of Worldly and Spiritual Needs
               </h3>
             </div>
             <p className="text-sm text-gray-300 leading-relaxed font-sans">
@@ -119,7 +119,7 @@ export default function BenefitsPage() {
             <div className="flex items-center gap-3 mb-4">
               <CheckCircle className="w-6 h-6 text-caribbean-green shrink-0" />
               <h3 className="text-lg font-bold text-white font-sans">
-                4. Lightening the Pang Pangs of Death
+                4. Lightening the Pangs of Death
               </h3>
             </div>
             <p className="text-sm text-gray-300 leading-relaxed font-sans">

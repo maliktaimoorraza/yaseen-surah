@@ -226,7 +226,7 @@ export default function HomepageClient() {
             Surah Yaseen PDF Download, Read and Listen Online
           </h1>
           <p className="text-base text-gray-300 leading-relaxed font-sans mb-4">
-            Surah Yaseen is a 36th Chapter of Holy Quran that comes in 22nd and 23rd para. It was revealed to Prophet Muhammad (PBUH) in Mecca, so it is a Meccan Surah. According to Prophet Muhammad everything has a heart and the heart of the Quran is Yaseen Surah and its recitation offers many worldly and <a href="/translation" className="nav-link" title="Surah Yaseen Benfits">spirtual benefits</a> to its readers.
+            Surah Yaseen is a 36th Chapter of Holy Quran that comes in 22nd and 23rd para. It was revealed to Prophet Muhammad (PBUH) in Mecca, so it is a Meccan Surah. According to Prophet Muhammad everything has a heart and the heart of the Quran is Yaseen Surah and its recitation offers many worldly and <a href="/translation" className="nav-link" title="Surah Yaseen Benefits">spiritual benefits</a> to its readers.
           </p>
           <p className="text-base text-gray-300 leading-relaxed font-sans">
             You can read Surah Yaseen online here on surah-yaseen.org along with Surah Yaseen PDF download. There you will listen to the soulful recitation of Surah e Yaseen by Sheikh Mishary Rashid Alafasy and Sheikh Abdurrahmaan As-Sudais. Apart from listening to the recitation you can download it in MP3.
@@ -617,7 +617,7 @@ export default function HomepageClient() {
           </div>
 
           <p className="text-sm text-gray-300 leading-relaxed font-sans mb-8">
-            You can listen to and download the <a href="/reciters" class="nav-link" title="Surah Reciters">full recitation of Surah Yaseen</a> to explore offline right here. Choose between two of the world's most famous and inspiring reciters. Pick the slow and calm style of Sheikh Alafasy or the powerful and religiously emotional style of Sheikh As-Sudais.
+            You can listen to and download the <a href="/reciters" className="nav-link" title="Surah Reciters">full recitation of Surah Yaseen</a> to explore offline right here. Choose between two of the world's most famous and inspiring reciters. Pick the slow and calm style of Sheikh Alafasy or the powerful and religiously emotional style of Sheikh As-Sudais.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -770,7 +770,7 @@ export default function HomepageClient() {
             </h2>
             {/* Exactly 50-word text block */}
             <p className="text-sm text-gray-400 mt-4 max-w-2xl mx-auto leading-relaxed font-sans">
-              You can improve your learning experience by watching these quality Surah Yaseen Recitation videos.  Follow the correct Uthmani script and tajweed rules visually while listening to the famous voices of Qari Abdurrahmaan As-Sudais and Sheikh Mishary Rashid Alafasy. They are perfect for <a href="/pronunciation" class="nav-link" title="Surah Yaseen Pronunciation">accurate pronunciation</a> and spiritual reflection in daily recitation.
+              You can improve your learning experience by watching these quality Surah Yaseen Recitation videos.  Follow the correct Uthmani script and tajweed rules visually while listening to the famous voices of Qari Abdurrahmaan As-Sudais and Sheikh Mishary Rashid Alafasy. They are perfect for <a href="/pronunciation" className="nav-link" title="Surah Yaseen Pronunciation">accurate pronunciation</a> and spiritual reflection in daily recitation.
             </p>
           </div>
 
