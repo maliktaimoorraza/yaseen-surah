@@ -15,7 +15,7 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
-    
+
     // Simulate API request
     setSubmitted(true);
     setFormData({ name: "", email: "", message: "" });
@@ -30,7 +30,7 @@ export default function ContactPage() {
             Get in touch
           </span>
           <h1 className="text-4xl font-extrabold tracking-tight text-white mb-4 font-sans">
-            Contact Us
+            Contact Us for any help | Surah Yaseen
           </h1>
           <p className="text-sm text-gray-300 leading-relaxed font-sans">
             Have questions, technical suggestions, or feedback regarding our <a href="/translation" className="nav-link" title="Surah Yaseen Translations">Translations</a>, phonics guides, or reciters audio files? Please reach out using the form below. We read all reader submissions and respond promptly.
@@ -44,7 +44,7 @@ export default function ContactPage() {
               <h2 className="text-lg font-bold text-white mb-6 font-sans">
                 Contact Details
               </h2>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-xl bg-bangladesh-green/40 border border-caribbean-green/20 flex items-center justify-center shrink-0">
@@ -88,7 +88,7 @@ export default function ContactPage() {
             <div className="bg-dark-green border border-caribbean-green/20 rounded-3xl p-8 shadow-2xl relative overflow-hidden">
               {/* Background gradient accents */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-caribbean-green/5 blur-3xl rounded-full" />
-              
+
               <div className="flex items-center gap-2 mb-6">
                 <MessageSquare className="w-5 h-5 text-caribbean-green" />
                 <h2 className="text-xl font-bold text-white font-sans">
